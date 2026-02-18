@@ -15,7 +15,6 @@ fp-info-cache
 *.net
 
 # Gerber and manufacturing output files
-*.zip
 gerbers/
 *.gbr
 *.drl
