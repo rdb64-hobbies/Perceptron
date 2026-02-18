@@ -4193,7 +4193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 68.58 154.94 0)
 			(effects
 				(font
@@ -4275,7 +4275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 72.39 185.42 0)
 			(effects
 				(font
@@ -4531,7 +4531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 83.82 177.8 0)
 			(effects
 				(font
@@ -4700,7 +4700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 76.2 154.94 0)
 			(effects
 				(font
@@ -4782,7 +4782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 60.96 154.94 0)
 			(effects
 				(font
@@ -4864,7 +4864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 83.82 162.56 0)
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 76.2 177.8 0)
 			(effects
 				(font
@@ -5813,7 +5813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "20P"
 			(at 39.37 172.7199 0)
 			(effects
 				(font
@@ -7349,7 +7349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 68.58 177.8 0)
 			(effects
 				(font
@@ -7861,7 +7861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 76.2 170.18 0)
 			(effects
 				(font
@@ -8297,7 +8297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 68.58 170.18 0)
 			(effects
 				(font
@@ -8553,7 +8553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 83.82 170.18 0)
 			(effects
 				(font
@@ -8806,7 +8806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 68.58 162.56 0)
 			(effects
 				(font
@@ -9587,7 +9587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 60.96 170.18 0)
 			(effects
 				(font
@@ -9843,7 +9843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 60.96 162.56 0)
 			(effects
 				(font
@@ -10012,7 +10012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 60.96 177.8 0)
 			(effects
 				(font
@@ -10357,7 +10357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 76.2 162.56 0)
 			(effects
 				(font
@@ -10526,7 +10526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "6mm"
 			(at 83.82 154.94 0)
 			(effects
 				(font
