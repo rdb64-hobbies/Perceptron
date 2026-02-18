@@ -1,0 +1,57 @@
+# KiCad backup files
+*.bak
+*-backups/
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+_autosave-*
+*.tmp
+
+# KiCad cache and metadata
+*-cache.lib
+*.dcm
+fp-info-cache
+*.net
+
+# Gerber and manufacturing output files
+*.zip
+gerbers/
+*.gbr
+*.drl
+*.csv
+*.pos
+*.rpt
+
+# BOM and position files (if auto-generated)
+*-bom.csv
+*-pos.csv
+
+# 3D model cache
+*.wrl.cache
+*.step.cache
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Python (if you add scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

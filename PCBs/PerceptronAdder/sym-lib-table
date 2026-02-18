@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PerceptronAdderSymbols")(type "KiCad")(uri "${KIPRJMOD}/PerceptronAdderSymbols.kicad_sym")(options "")(descr "Project-specific library"))
+)
