@@ -18,13 +18,8 @@ fp-info-cache
 gerbers/
 *.gbr
 *.drl
-*.csv
 *.pos
 *.rpt
-
-# BOM and position files (if auto-generated)
-*-bom.csv
-*-pos.csv
 
 # 3D model cache
 *.wrl.cache
