@@ -37,4 +37,6 @@ The way you do this is by uploading the Gerber files to the fabricator's website
 
 Download them both to your local machine.
 
-Now, go to the fabricator's website and find the place to "Get instant quote" or similar. That should bring you to page that has a button to "Add Gerber file" or similar. Click that button and upload the first of the Gerber zip files you just downloaded.
+Now, go to the fabricator's website and find the place to "Get instant quote" or similar. That should bring you to a page that has a button to "Add Gerber file" or similar. Click that button and upload either one of the Gerber zip files you just downloaded. The website will upload and process the file (which may take a few minutes), and then it will show you a preview of the PCB with the dimensions automatically detected. For the Input PCB, the dimensions should be 164mm x 86mm. For the Adder PCB, the dimensions should be 122mm x 132mm. Now you can "Save to cart." There's no need to change any of the specifications or options - the defaults are fine. Now repeat for the other PCB. With both PCBs in your cart, you can proceed to checkout in the standard way.
+
+[Here](JLCPCB.md) is the step-by-step with screenshots for JLCPCB.
