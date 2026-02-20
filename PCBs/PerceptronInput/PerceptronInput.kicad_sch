@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Perceptron Input")
-		(date "2026-02-07")
-		(rev "2")
+		(date "2026-02-20")
+		(rev "2.1")
 		(company "RDB64")
 	)
 	(lib_symbols

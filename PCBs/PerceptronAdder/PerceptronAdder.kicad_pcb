@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Perceptron Adder")
-		(date "2026-02-07")
-		(rev "2")
+		(date "2026-02-20")
+		(rev "2.1")
 		(company "RDB64")
 	)
 	(layers
@@ -404,7 +404,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "9cc25530-4adb-4c86-b9f0-e3569dd64641")
+			(uuid "d9d627ae-5cce-4fbb-926d-83171c04d56a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -811,7 +811,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "943954c7-bfae-471a-8ffd-a96195bae8f6")
+			(uuid "ae6d8018-c84f-48f0-8560-e234a4cad06f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -1090,7 +1090,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "1d86a35d-88f8-4a90-a9a0-50cd7d876f13")
+			(uuid "952a0737-ab27-4b3c-b801-8f1514e7c0d9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -1369,7 +1369,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "3d589419-6d6d-4968-baa4-59a316da572a")
+			(uuid "e8579e8a-05bd-4e37-8830-e9c9307a3a31")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -1648,7 +1648,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "0d016911-24bb-4076-ab87-29f307753893")
+			(uuid "8c536b73-2f3c-4715-93b5-849932b33ae6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -1927,7 +1927,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "b0bd5a72-339a-4828-b742-2afb9359ab6f")
+			(uuid "5d4b5398-0f5c-4fae-ab59-aa92da64fc5c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -2462,7 +2462,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "d3141f48-e5f0-49af-9de6-8b22cff8f9bf")
+			(uuid "22df9536-d932-4f53-ba1f-953331a16c7d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -2741,7 +2741,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "32e9e292-aa3c-4700-9972-514d1280978e")
+			(uuid "7c86a894-fd27-46ee-904a-056ec4df2c5a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -3020,7 +3020,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "4a86ab03-7cbc-42c2-887f-fe4d0e18da20")
+			(uuid "65c918ba-7dff-4e70-94b7-2c3ab1008ee7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -3299,7 +3299,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "d9de0b52-8c5f-4c45-affd-2a27b81e0da1")
+			(uuid "e6293a4f-c5fc-4e1f-8785-fa4d3b36871b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -3706,7 +3706,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "41ecb718-09fc-436e-8991-2bea8e4c6f16")
+			(uuid "318e6146-c523-4edf-9d8a-aaf6a8ea7c88")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -3985,7 +3985,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "191d422c-4e55-46d2-9b1b-283f701e5325")
+			(uuid "f862e637-1b3f-40be-85d8-ef4b4347bedc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -4264,7 +4264,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "ebd87a44-0640-423c-beee-de55b645d0e7")
+			(uuid "cfddfe68-7ad8-44ff-bdf6-6f4408a2c4f6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -4543,7 +4543,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "056d4072-53a8-4858-9091-6e42c7da2d4e")
+			(uuid "40bf1c89-3279-46a8-90dc-026a775d4350")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -4822,7 +4822,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "fe1da3b4-6205-4d71-8da4-d893fea29d4b")
+			(uuid "47791480-4e74-464e-8600-f847c82bc105")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -5101,7 +5101,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "64ea58a4-afcf-4662-902b-4171f5f91b24")
+			(uuid "7283c937-f460-4185-8114-7c8e20377852")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -5380,7 +5380,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "d6a088cb-1763-4295-8c31-557bfb84b034")
+			(uuid "6811c983-7755-40ed-968d-52ca9c7a935b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -14904,30 +14904,6 @@
 			(justify top)
 		)
 	)
-	(gr_text "Rev ${REVISION}, ${ISSUE_DATE}, ${COMPANY}"
-		(at 125.5 155 0)
-		(layer "F.SilkS")
-		(uuid "56c2e675-3fa9-4b8e-bd38-3ac16f6aa8ac")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "jlcjlcjlcjlc"
-		(at 77.5 154.5 0)
-		(layer "B.SilkS")
-		(uuid "1a32a7cd-bd42-46e6-8f9a-d9766ebe1a8d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify right bottom mirror)
-		)
-	)
 	(gr_text "+"
 		(at 180 77.5 0)
 		(layer "B.SilkS")
@@ -14950,6 +14926,18 @@
 				(thickness 0.1)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "Rev ${REVISION}, ${ISSUE_DATE}, ${COMPANY}"
+		(at 66.5 134 270)
+		(layer "B.SilkS")
+		(uuid "56c2e675-3fa9-4b8e-bd38-3ac16f6aa8ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "From Input"
