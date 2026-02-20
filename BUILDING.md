@@ -1,7 +1,7 @@
 Perceptron Build Guide
 ===========================
 
-This guide will walk you through building a Perceptron. For more information about the Perceptron and this project, see the [README](README.md). The only required skill is basic soldering of simple through-hole components to printed circuit boards (PCBs). Bonus if you have a 3D printer to make it look nice (as in the image above).
+This guide will walk you through building a Perceptron. For more information about the Perceptron and this project, see the [README](README.md). The only required skill is basic soldering of simple through-hole components to printed circuit boards (PCBs). Bonus if you have a 3D printer to make it look nice.
 
 The outline of the build process is as follows:
 
