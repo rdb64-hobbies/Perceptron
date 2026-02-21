@@ -79,6 +79,14 @@ The `Link` for the 2-pin and 4-pin headers and sockets (rows 5-8) in the BoM goe
 
 # 3. Solder the components to the PCBs
 
+Below are the schematics for the two PCBs. If you click on the schematic image, you'll get the PDF version.
+
+Input board schematic:
+[![Input PCB schematic](assets/schematic_input.png)](assets/schematic_input.pdf)
+
+Adder board schematic:
+[![Adder PCB schematic](assets/schematic_adder.png)](assets/schematic_adder.pdf)
+
 # 4. Connect the battery holders and meter and ribbon cable
 
 # 5. (Optional) Build frames

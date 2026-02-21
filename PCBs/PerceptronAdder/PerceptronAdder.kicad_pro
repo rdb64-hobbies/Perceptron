@@ -490,7 +490,7 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/PerceptronAdder.step",
+      "step": "../../../../Downloads/PerceptronAdder.step",
       "svg": "",
       "vrml": ""
     },
