@@ -77,14 +77,24 @@ The `Link` for the 2-pin and 4-pin headers and sockets (rows 5-8) in the BoM goe
 
 ## Meter
 
+For the meter, you need an analog DC current meter that measures current in both directions and with a reasonable range for this particular circuit. I've found that ones that measure from minus 100 microamps to plus 100 microamps (with a full scale voltage around 100 millivolts and therefore a shunt resistance around 1 kohm) are about right for this circuit.
+
+I've tested the one from AliExpress in the BoM, and it works well, so I recommend going with that. It's cheap, and I think it's readily available, albeit coming from China.
+
+Feel free to look around for other alternatives. There are some very nice alternatives from Simpson that you might find on eBay, but they're rather expensive. The one you see in my video is a Simpson model 1329 that I found on eBay. I think it looks great, but it was expensive.
+
+The PCB has a place for a shunt resistor which can help accomodate a wider range of meters. [This video](https://www.youtube.com/watch?v=4U-nxdp-LDw) provides a good explanation of how to use a shunt resistor to accomodate a wider range of meters. If you're using the meter from the BoM or a Simpson like the one I used in the video, then don't put a shunt resistor on the PCB - leave that spot unpopulated.
+
 # 3. Solder the components to the PCBs
 
 Below are the schematics for the two PCBs. If you click on the schematic image, you'll get the PDF version.
 
 Input board schematic:
+
 [![Input PCB schematic](assets/schematic_input.png)](assets/schematic_input.pdf)
 
 Adder board schematic:
+
 [![Adder PCB schematic](assets/schematic_adder.png)](assets/schematic_adder.pdf)
 
 # 4. Connect the battery holders and meter and ribbon cable
