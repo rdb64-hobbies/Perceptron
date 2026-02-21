@@ -9,7 +9,7 @@ The outline of the build process is as follows:
 2. Obtain all of the other components.
 3. Solder the components to the PCBs.
 4. Connect the battery holders and meter and ribbon cable.
-5. (Optional) build frames.
+5. (Optional) Build frames.
 
 The last step is optional for those who want to make it look nice. You'll need a 3D printer or some basic skills with sheet metal. Without this step, your Perceptron will look something like this:
 
@@ -74,3 +74,11 @@ Easy, but I don't much like it - not just because I don't much like the holders 
 You can also use this method to connect the meter to the other PCB. Again, much better than soldering directly to the PCB.
 
 The `Link` for the 2-pin and 4-pin headers and sockets (rows 5-8) in the BoM goes to a full kit of Dupont connectors with plenty of pin headers and sockets with a range of pin counts. You'll just need one of these kits, and you only need the 2-pin size for the meter and the 4-pin size for the battery holders. This one comes with a crimping tool, and the Amazon page also has a short video demonstrating how to use it. It's easy, but if you've never done it before, experiment first with some scrap wire before crimping to the battery holders. Of course, if you already have a crimping tool, feel free to buy connectors without the tool. Just make sure the pitch (distance between pins) is 2.54mm.
+
+## Meter
+
+# 3. Solder the components to the PCBs
+
+# 4. Connect the battery holders and meter and ribbon cable
+
+# 5. (Optional) Build frames
