@@ -40,3 +40,21 @@ Download them both to your local machine.
 Now, go to the fabricator's website and find the place to "Get instant quote" or similar. That should bring you to a page that has a button to "Add Gerber file" or similar. Click that button and upload either one of the Gerber zip files you just downloaded. The website will upload and process the file (which may take a few minutes), and then it will show you a preview of the PCB with the dimensions automatically detected. For the Input PCB, the dimensions should be 164mm x 86mm. For the Adder PCB, the dimensions should be 122mm x 132mm. Now you can "Save to cart." There's no need to change any of the specifications or options - the defaults are fine. Now repeat for the other PCB. With both PCBs in your cart, you can proceed to checkout in the standard way.
 
 [Here](JLCPCB.md) is the step-by-step with screenshots for JLCPCB.
+
+They'll probably take a little over a week to arrive. Rejoice!
+
+![PCBs](assets/pcbs.jpg)
+
+# 2. Obtain all of the other components
+
+[Here](BoM.csv) is the bill of materials (BoM) for all of the components you'll need:
+
+[![Bill of Materials](assets/bom.png)](BoM.csv)
+
+There's also a [PDF version](assets/bom.pdf) of the BoM if you prefer.
+
+For each component, I've tried to find an inexpensive, readily-available option, and I've put links to them in the `Link` and `Alt Link` columns. The one exception is the meter. The only inexpensive source I could find is AliExpress. They're cheap but coming from China. See below for more information about obtaining the meter.
+
+The `Value` column is used to identify each component on the schematic and the PCB layout. It will come into play when we get to building, but for now, you can ignore that column.
+
+The `Qty` column tells you how many of each component you'll need, but realize that the Amazon links go to products that are packs with multiple components. For example, the Amazon LEDs is a pack of 100, so you only need to order one. So for each item you order, make sure you check the number of components in the pack against the quantity needed. The exception is the Digikey links. From Digikey, you can order exactly the number of components you want.
