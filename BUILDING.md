@@ -57,4 +57,20 @@ For each component, I've tried to find an inexpensive, readily-available option,
 
 The `Value` column is used to identify each component on the schematic and the PCB layout. It will come into play when we get to building, but for now, you can ignore that column.
 
-The `Qty` column tells you how many of each component you'll need, but realize that the Amazon links go to products that are packs with multiple components. For example, the Amazon LEDs is a pack of 100, so you only need to order one. So for each item you order, make sure you check the number of components in the pack against the quantity needed. The exception is the Digikey links. From Digikey, you can order exactly the number of components you want.
+The `Qty` column tells you how many of each component you'll need, but realize that the Amazon links go to products that are packs with multiple components. For example, the Amazon LEDs is a pack of 100, so you only need to order one. So for each item you order, make sure you check the number of components in the pack against the quantity needed. The exception is the Digikey links. From Digikey, you can order exactly the number of components you want. In general, I recommend using Digikey, but in the case of the toggle switches, I wasn't able to find an inexpensive option on Digikey.
+
+## Battery holders (to crimp or not to crimp)
+
+There's no provision for an on-off switch on the PCBs (including one seemed like overkill), so to turn the device on and off, you'll need to either have an easy way to connect and disconnect the battery holders to and from the PCB or use battery holders that have an on-off switch built in. I don't much like the battery holders with on-off switches (there's no good way to mount them inside my 3D-printed frames), so I recommend using standard battery holders with a pin header and socket for easy connect and disconnect. To do this, you'll need to be able to do simple crimping. If you've never done it before, don't worry - it's easy and a crimping tool is cheap.
+
+The `Alt Link` for the battery holders is to holders that do have an on-off switch built in, so if you use those, you can just solder the wire leads directly to the PCB like this:
+
+![Battery holders with switches soldered directly to PCB](assets/battery_direct.jpg)
+
+Easy, but I don't much like it - not just because I don't much like the holders with switches, but because it's just awkward to have the holders permanently soldered to the PCB. Better is to connect the battery holders to the PCB with a pin header and socket like this:
+
+![Battery holders connected via pin header and socket](assets/battery_crimp.jpg)
+
+You can also use this method to connect the meter to the other PCB. Again, much better than soldering directly to the PCB.
+
+The `Link` for the 2-pin and 4-pin headers and sockets (rows 5-8) in the BoM goes to a full kit of Dupont connectors with plenty of pin headers and sockets with a range of pin counts. You'll just need one of these kits, and you only need the 2-pin size for the meter and the 4-pin size for the battery holders. This one comes with a crimping tool, and the Amazon page also has a short video demonstrating how to use it. It's easy, but if you've never done it before, experiment first with some scrap wire before crimping to the battery holders. Of course, if you already have a crimping tool, feel free to buy connectors without the tool. Just make sure the pitch (distance between pins) is 2.54mm.
