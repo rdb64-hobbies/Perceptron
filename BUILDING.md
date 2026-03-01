@@ -85,6 +85,10 @@ Feel free to look around for other alternatives. There are some very nice altern
 
 The PCB has a place for a shunt resistor which can help accomodate a wider range of meters. [This video](https://www.youtube.com/watch?v=4U-nxdp-LDw) provides a good explanation of how to use a shunt resistor to accomodate a wider range of meters. If you're using the meter from the BoM or a Simpson like the one I used in the video, then don't put a shunt resistor on the PCB - leave that spot unpopulated.
 
+## Other components
+
+Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, there are tons of choices but make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm.
+
 # 3. Solder the components to the PCBs
 
 Below are the schematics for the two PCBs. If you click on the schematic image, you'll get the PDF version.
