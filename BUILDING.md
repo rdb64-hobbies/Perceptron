@@ -91,7 +91,37 @@ Feel free to use components other than those linked in the BoM. For the toggle s
 
 # 3. Solder the components to the PCBs
 
-Below are the schematics for the two PCBs. If you click on the schematic image, you'll get the PDF version.
+Both PCBs are double-sided, so you'll need to solder components to both sides. The silkscreen markings indicate on which side and where each component goes. I recommend doing the rear side of each board first. Here is a photo of the rear side of both boards.
+
+![Rear side of both PCBs](assets/pcbs_rear.jpg)
+
+This side is where the resistors and pin headers go. These components are mounted on the rear side, so of course, you solder on the front side.
+
+The 16 resistors on the input board are the 68 ohm resistors, and the 36 resistors on the adder board are the 10k ohm resistors. Leave the shunt resistor location unpopulated, unless you're using a meter that requires a shunt resistor (as desribed above).
+
+When it comes to mounting the 2x10 pin headers, if they are notched - as is the case with the ones in the BoM - then you need to make sure that they are inserted in the same orientation on both boards so that the ribbon cable can connect the two boards without having to be twisted. If you insert both connectors with the notch aligned with the marking on the slikscreen, then you'll be fine. In general, so long as you can connect the two boards without twisting the ribbon cable, then you're good to go. This is what it should look like:
+
+![Ribbon cable connecting the two boards without twisting](assets/ribbon_cable.jpg)
+
+This is now a good time to clean the front side of both boards - the side where you just did the soldering. A scrub with a stiff-bristled brush and isopropyl alcohol will do the trick.
+
+Now on to the front-side components (which, of course, get soldered on the rear side). Here is a photo of the front side of both boards with all of the rear-side components already soldered in place.
+
+![Front side of both PCBs](assets/pcbs_front.jpg)
+
+Starting with the front side of the input board, this is where the 16 toggle switches and 16 LEDs go. The toggle switches can go in in either orientation.
+
+The LEDs, however, require more care. You'll notice that the LEDs have a long lead and a short one. At the very least, make sure that they're all installed with the same orientation - either all with the long lead on the right or all with the long lead on the left. If you're using the LEDs from the BoM, then if you install with the long lead on the right, then you'll get red for plus one (toggle switch up) and green for minus one (toggle switch down). That's how I did it. If you prefer the opposite, then just install with the long lead on the left.
+
+Also, if you plan to mount the PCBs in a 3D printed frame, then you'll want the LEDs mounted a few millimeters above the board, aligned with the top of the toggle switch housings. Fortunately, I've created a 3D printable jig to make this super easy. See the last section of this build guide for more information.
+
+Moving on to the front side of the adder board, this is where the 17 potentiometers go.
+
+Go ahead and clean the rear side of both boards now. Your PCBs are now done. They should look like this (in this case with the LEDs mounted a few millimeters above the board):
+
+![Front side of both completed PCBs](assets/pcbs_front_done.jpg)
+
+You don't really need them, but for completeness, here are the schematics for the two PCBs. If you click on the schematic image, you'll get the PDF version.
 
 Input board schematic:
 
