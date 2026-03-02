@@ -1,7 +1,7 @@
 Perceptron Build Guide
 ===========================
 
-This guide will walk you through building a Perceptron. For more information about the Perceptron and this project, see the [README](README.md). The only required skill is basic soldering of simple through-hole components to printed circuit boards (PCBs). Bonus if you have a 3D printer to make it look nice.
+This guide will walk you through building a Perceptron. For more information about the Perceptron and this project, see the [README file](README.md). The only required skill is basic soldering of simple through-hole components to printed circuit boards (PCBs). Bonus if you have a 3D printer to make it look nice.
 
 The outline of the build process is as follows:
 
@@ -11,7 +11,7 @@ The outline of the build process is as follows:
 4. Connect the battery holders and meter and ribbon cable.
 5. (Optional) Build frames.
 
-The last step is optional for those who want to make it look nice. You'll need a 3D printer or some basic skills with sheet metal. Without this step, your Perceptron will look something like this:
+The last step is optional for those who want to make it look nice. You'll need a 3D printer. Without this step, your Perceptron will look something like this:
 
 ![Perceptron built without any frame](assets/built_noframe.jpg)
 
@@ -23,7 +23,7 @@ If you don't have a 3D printer but still at least want a front plate for the wei
 
 # 1. Obtain the PCBs
 
-There are 2 PCBs - the Input board and the Adder board - and you can get them from a fabricator such as [JLCPCB](https://jlcpcb.com/) or [PCBWay](https://www.pcbway.com/). If you've never done this before, it may sound intimidating, but I can assure you that it's quite simple. I'll explain how to do it.
+There are 2 PCBs - the *Input board* and the *Adder board* - and you can get them from a fabricator such as [JLCPCB](https://jlcpcb.com/) or [PCBWay](https://www.pcbway.com/). If you've never done this before, it may sound intimidating, but I can assure you that it's quite simple. I'll explain how to do it.
 
 The only friction is a bit of cost. The fabricators generally require a minimum order of 5 boards for each PCB design, and since they're in China, there's shipping and tarrif costs as well. The cost of 5 boards is about $15; multiply that by 2, since there are 2 different PCBs; the shipping cost is about $50; and the tariffs are about $15. So the total cost is about $95. On the plus side, for that cost, you'll have 5 of each PCB, and they ship pretty quickly.
 
@@ -73,7 +73,11 @@ Easy, but I don't much like it - not just because I don't much like the holders 
 
 You can also use this method to connect the meter to the other PCB. Again, much better than soldering directly to the PCB.
 
-The `Link` for the 2-pin and 4-pin headers and sockets (rows 5-8) in the BoM goes to a full kit of Dupont connectors with plenty of pin headers and sockets with a range of pin counts. You'll just need one of these kits, and you only need the 2-pin size for the meter and the 4-pin size for the battery holders. This one comes with a crimping tool, and the Amazon page also has a short video demonstrating how to use it. It's easy, but if you've never done it before, experiment first with some scrap wire before crimping to the battery holders. Of course, if you already have a crimping tool, feel free to buy connectors without the tool. Just make sure the pitch (distance between pins) is 2.54mm.
+## Pin headers and sockets
+
+The `Link` for the 2-pin and 4-pin headers and sockets (rows 5-8) in the BoM goes to a full kit of Dupont connectors with plenty of pin headers and sockets with a range of pin counts. You'll just need one of these kits, and you only need the 2-pin size for the meter and the 4-pin size for the battery holders. This one comes with a crimping tool, and the Amazon page also has a short video demonstrating how to use it. It's easy, but if you've never done it before, experiment first with some scrap wire before crimping to the battery holders. Of course, if you already have a crimping tool, feel free to buy connectors without the tool. Also, feel free to use whatever style of pin headers and sockets you prefer. Just make sure that they connect and disconnect easily for the batteries, since that's the on-off switch (unless you use battery holders with built-in on-off switches), and that the pitch (distance between pins) is 2.54mm.
+
+For the 2x10-pin headers, you just need to make sure that the pitch is 2.54mm and that they will accomodate the ribbon cable. For the ribbon cable, I recommend going as short as you can find.
 
 ## Meter
 
@@ -87,7 +91,7 @@ The PCB has a place for a shunt resistor which can help accomodate a wider range
 
 ## Other components
 
-Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, there are tons of choices but make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm.
+Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, there are tons of choices but make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-26 guage.
 
 # 3. Solder the components to the PCBs
 
@@ -97,29 +101,31 @@ Both PCBs are double-sided, so you'll need to solder components to both sides. T
 
 This side is where the resistors and pin headers go. These components are mounted on the rear side, so of course, you solder on the front side.
 
-The 16 resistors on the input board are the 68 ohm resistors, and the 36 resistors on the adder board are the 10k ohm resistors. Leave the shunt resistor location unpopulated, unless you're using a meter that requires a shunt resistor (as desribed above).
+The 16 resistors, R1-R16, on the Input board are the 68 ohm resistors, and the 36 resistors, R1-R36, on the Adder board are the 10k ohm resistors. Leave R37, the shunt resistor location, unpopulated, unless you're using a meter that requires a shunt resistor (as desribed above).
 
-When it comes to mounting the 2x10 pin headers, if they are notched - as is the case with the ones in the BoM - then you need to make sure that they are inserted in the same orientation on both boards so that the ribbon cable can connect the two boards without having to be twisted. If you insert both connectors with the notch aligned with the marking on the slikscreen, then you'll be fine. In general, so long as you can connect the two boards without twisting the ribbon cable, then you're good to go. This is what it should look like:
+When it comes to inserting the 2x10-pin headers, J1 on both boards, if they are notched - as is the case with the ones in the BoM - then you need to make sure that they are inserted in the same orientation on both boards so that the ribbon cable can connect the two boards without having to be twisted. If you insert both connectors with the notch aligned with the marking on the slikscreen, then you'll be fine. ([Here](assets/orient_2x10_header.jpg) is a close-up image.) In general, so long as you can connect the two boards without twisting the ribbon cable, then you're good to go. This is what it should look like:
 
 ![Ribbon cable connecting the two boards without twisting](assets/ribbon_cable.jpg)
+
+If you're going to solder the battery holder wires and meter wires directly to the PCBs, then best to do that later, after you've mounted the front-side components. Otherwise, go ahead and solder in the 4-pin header, J2 of the Input board, and the 2-pin header, J2 of the Adder board.
 
 This is now a good time to clean the front side of both boards - the side where you just did the soldering. A scrub with a stiff-bristled brush and isopropyl alcohol will do the trick.
 
 Now on to the front-side components (which, of course, get soldered on the rear side). Here is a photo of the front side of both boards with all of the rear-side components already soldered in place.
 
-![Front side of both PCBs](assets/pcbs_front.jpg)
+![Front side of both PCBs with rear done](assets/pcbs_front_rear_done.jpg)
 
-Starting with the front side of the input board, this is where the 16 toggle switches and 16 LEDs go. The toggle switches can go in in either orientation.
+Starting with the front side of the Input board, this is where the 16 toggle switches, SW1-SW16, and 16 LEDs, D1-D16, go. The toggle switches can go in in either orientation.
 
-The LEDs, however, require more care. You'll notice that the LEDs have a long lead and a short one. At the very least, make sure that they're all installed with the same orientation - either all with the long lead on the right or all with the long lead on the left. If you're using the LEDs from the BoM, then if you install with the long lead on the right, then you'll get red for plus one (toggle switch up) and green for minus one (toggle switch down). That's how I did it. If you prefer the opposite, then just install with the long lead on the left.
+The LEDs, however, require more care. You'll notice that the LEDs have a long lead and a short one. ([Here](assets/orient_led.jpg) is a close-up image.) At the very least, make sure that they're all installed with the same orientation - either all with the long lead on the right or all with the long lead on the left. If you're using the LEDs from the BoM, then if you install with the long lead on the right, then you'll get red for plus one (toggle switch up) and green for minus one (toggle switch down). That's how I did it. If you prefer the opposite, then just install with the long lead on the left.
 
 Also, if you plan to mount the PCBs in a 3D printed frame, then you'll want the LEDs mounted a few millimeters above the board, aligned with the top of the toggle switch housings. Fortunately, I've created a 3D printable jig to make this super easy. See the last section of this build guide for more information.
 
-Moving on to the front side of the adder board, this is where the 17 potentiometers go.
+Moving on to the front side of the Adder board, this is where the 17 potentiometers, RV1-RV17, go.
 
 Go ahead and clean the rear side of both boards now. Your PCBs are now done. They should look like this (in this case with the LEDs mounted a few millimeters above the board):
 
-![Front side of both completed PCBs](assets/pcbs_front_done.jpg)
+![Front side of both completed PCBs](assets/pcbs_front_all_done.jpg)
 
 You don't really need them, but for completeness, here are the schematics for the two PCBs. If you click on the schematic image, you'll get the PDF version.
 
