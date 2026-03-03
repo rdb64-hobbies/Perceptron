@@ -121,11 +121,11 @@ Starting with the front side of the Input board, this is where the 16 toggle swi
 
 The LEDs, however, require more care. You'll notice that the LEDs have a long lead and a short one. ([Here](assets/orient_led.jpg) is a close-up image.) At the very least, make sure that they're all installed with the same orientation - either all with the long lead on the right or all with the long lead on the left. If you're using the LEDs from the BoM, then if you install with the long lead on the right, then you'll get red for plus one (toggle switch up) and green for minus one (toggle switch down). That's how I did it. If you prefer the opposite, then just install with the long lead on the left.
 
-Also, if you plan to mount the PCBs in a 3D printed frame, then you'll want the LEDs mounted a few millimeters above the board, aligned with the top of the toggle switch housings. Fortunately, I've created a 3D printable jig to make this super easy. See the last section of this build guide for more information.
+**Important**: If you are going to use the 3D printed frames, don't solder the LEDs until you've read the last section. The LEDs need to be mounted a few millimeters above the board, aligned with the top of the toggle switch housings and the frame's front plate. Fortunately, I've created a 3D printable input-board soldering jig to make this super easy. You're going to want to print out this jig and follow the instructions to use it in order to ensure that you have the LEDs at the right height above the PCB.
 
 Moving on to the front side of the Adder board, this is where the 17 potentiometers, RV1-RV17, go.
 
-Go ahead and clean the rear side of both boards now. Your PCBs are now done. They should look like this (in this case with the LEDs mounted a few millimeters above the board):
+Go ahead and clean the rear side of both boards now. Your PCBs are now done. They should look like this (in this case with the LEDs mounted a few millimeters above the board using the 3D printed jig):
 
 ![Front side of both completed PCBs](assets/pcbs_front_all_done.jpg)
 
