@@ -107,7 +107,9 @@ When it comes to inserting the 2x10-pin headers, J1 on both boards, if they are 
 
 ![Ribbon cable connecting the two boards without twisting](assets/ribbon_cable.jpg)
 
-If you're going to solder the battery holder wires and meter wires directly to the PCBs, then best to do that later, after you've mounted the front-side components. Otherwise, go ahead and solder in the 4-pin header, J2 of the Input board, and the 2-pin header, J2 of the Adder board.
+If you're going to solder the battery holder wires and meter wires directly to the PCBs, then best to do that later, after you've mounted the front-side components. Otherwise, go ahead and solder in the 4-pin header, J2 of the Input board, and the 2-pin header, J2 of the Adder board. The rear side of both boards, now done, should look like this:
+
+![Rear side of both PCBs with rear done](assets/pcbs_rear_rear_done.jpg)
 
 This is now a good time to clean the front side of both boards - the side where you just did the soldering. A scrub with a stiff-bristled brush and isopropyl alcohol will do the trick.
 
