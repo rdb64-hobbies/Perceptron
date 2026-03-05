@@ -53,11 +53,11 @@ They'll probably take a little over a week to arrive. Rejoice!
 
 There's also a [PDF version](assets/bom.pdf) of the BoM if you prefer.
 
-For each component, I've tried to find an inexpensive, readily-available option, and I've put links to them in the `Link` and `Alt Link` columns. The one exception is the meter. The only inexpensive source I could find is AliExpress. They're cheap but coming from China. See below for more information about obtaining the meter.
+For each component, I've tried to find an inexpensive, readily-available option, and I've put links to them in the `Link` and `Alt Link` columns. In the case of the meter, the only inexpensive sources I could find are coming from China. They're cheap and readily available but take a bit of time in shipping. See below for more information about obtaining the meter.
 
-The `Value` column is used to identify each component on the schematic and the PCB layout. It will come into play when we get to building, but for now, you can ignore that column.
+The `Value` column is used to identify each component on the schematic. For now, you can ignore that column.
 
-The `Qty` column tells you how many of each component you'll need, but realize that the Amazon links go to products that are packs with multiple components. For example, the Amazon LEDs is a pack of 100, so you only need to order one. So for each item you order, make sure you check the number of components in the pack against the quantity needed. The exception is the Digikey links. From Digikey, you can order exactly the number of components you want. In general, I recommend using Digikey, but in the case of the toggle switches, I wasn't able to find an inexpensive option on Digikey.
+The `Qty` column tells you how many of each component you'll need, but realize that the Amazon links go to products that are packs with multiple components. For example, the Amazon LEDs is a pack of 100, so you only need to order one. So for each item you order, make sure you check the number of components in the pack against the quantity needed. The exception is the Digikey links. From [Digikey](https://www.digikey.com/), you can order exactly the number of components you want. If you prefer, you'll find equivalent components on [Mouser](https://www.mouser.com/). In general, I recommend using Digikey or Mouser, but in the case of the toggle switches, I wasn't able to find an inexpensive option on Digikey or Mouser.
 
 ## Battery holders (to crimp or not to crimp)
 
@@ -75,23 +75,29 @@ You can also use this method to connect the meter to the other PCB. Again, much 
 
 ## Pin headers and sockets
 
-The `Link` for the 2-pin and 4-pin headers and sockets (rows 5-8) in the BoM goes to a full kit of Dupont connectors with plenty of pin headers and sockets with a range of pin counts. You'll just need one of these kits, and you only need the 2-pin size for the meter and the 4-pin size for the battery holders. This one comes with a crimping tool, and the Amazon page also has a short video demonstrating how to use it. It's easy, but if you've never done it before, experiment first with some scrap wire before crimping to the battery holders. Of course, if you already have a crimping tool, feel free to buy connectors without the tool. Also, feel free to use whatever style of pin headers and sockets you prefer. Just make sure that they connect and disconnect easily for the batteries, since that's the on-off switch (unless you use battery holders with built-in on-off switches), and that the pitch (distance between pins) is 2.54mm.
+The `Link` for the 2-pin and 4-pin headers and sockets in the BoM goes to a full kit of Dupont connectors with plenty of pin headers and sockets with a range of pin counts. You'll just need one of these kits, and you only need the 2-pin size for the meter and the 4-pin size for the battery holders. This one comes with a crimping tool, and the Amazon page also has a short video demonstrating how to use it. It's easy, but if you've never done it before, experiment first with some scrap wire before crimping to the battery holders. Of course, if you already have a crimping tool, feel free to buy connectors without the tool. Also, feel free to use whatever style of pin headers and sockets you prefer. Just make sure that they connect and disconnect easily for the batteries, since that's the on-off switch (unless you use battery holders with built-in on-off switches), and that the pitch (distance between pins) is 2.54mm.
 
 For the 2x10-pin headers, you just need to make sure that the pitch is 2.54mm and that they will accomodate the ribbon cable. For the ribbon cable, I recommend going as short as you can find.
 
 ## Meter
 
-For the meter, you need an analog DC current meter that measures current in both directions and with a reasonable range for this particular circuit. I've found that ones that measure from minus 100 microamps to plus 100 microamps (with a full scale voltage around 100 millivolts and therefore a shunt resistance around 1 kohm) are about right for this circuit.
+For the meter, you need an analog DC current meter that measures current in both directions and with a reasonable range for this particular circuit. I've found that ones that measure from minus 100 microamps to plus 100 microamps (-100 uA to +100 uA) are about right for this circuit.
 
-I've tested the one from AliExpress in the BoM, and it works well, so I recommend going with that. It's cheap, and I think it's readily available, albeit coming from China.
+Here are 3 that I've tested and work great:
 
-Feel free to look around for other alternatives. There are some very nice alternatives from Simpson that you might find on eBay, but they're rather expensive. The one you see in my video is a Simpson model 1329 that I found on eBay. I think it looks great, but it was expensive.
+![Three meters that I've tried and tested](assets/meters.jpg)
 
-The PCB has a place for a shunt resistor which can help accomodate a wider range of meters. [This video](https://www.youtube.com/watch?v=4U-nxdp-LDw) provides a good explanation of how to use a shunt resistor to accomodate a wider range of meters. If you're using the meter from the BoM or a Simpson like the one I used in the video, then don't put a shunt resistor on the PCB - leave that spot unpopulated.
+The first one is the one in the `Link` column of the BoM. It's a generic brand 44C2-style meter. The second one is the one in the `Alt Link` column of the BoM. It's a generic brand 85C1-style meter. The 44C2 is a good size for this project, so I recommend going with that one. Make sure that when you order from AliExpress, you click on the option for the 100UA-0-100UA measuring range.
+
+The third meter is the one I used in the video, and it's a Simpson model 1329. Simpson actually has made lots of models (with different sizes and styles) with a -100 uA to +100 uA measuring range. The Simpson meters are excellent, but they're expensive and hard to find. I found mine on eBay. If you find one and want to pony up the money, you'll have the best looking Perceptron on the block.
+
+If you want to explore other meter options, [this video](https://www.youtube.com/watch?v=wbRx5cQZ8Ts) gives a great overview of how these meters work. And [this video](https://www.youtube.com/watch?v=4U-nxdp-LDw) provides a good explanation of how to use a shunt resistor to get your meter to operate at the desired range. The PCB has a place for a shunt resistor in case you need one.
+
+But if you're using a meter from the BoM or a Simpson like the one I used in the video or probably anything with a -100 uA to +100 uA or greater measuring range, then don't put a shunt resistor on the PCB - leave that spot unpopulated.
 
 ## Other components
 
-Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, there are tons of choices but make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-26 guage.
+Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, there are tons of choices but make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-24 guage.
 
 # 3. Solder the components to the PCBs
 
