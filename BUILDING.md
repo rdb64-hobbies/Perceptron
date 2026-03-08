@@ -69,7 +69,7 @@ The `Value` column is used to identify each component on the schematic. For now,
 
 The `Qty` column tells you how many of each component you'll need, but realize that the Amazon links go to products that are packs with multiple components. For example, the Amazon LEDs is a pack of 100, so you only need to order one. So for each item you order, make sure you check the number of components in the pack against the quantity needed. The exception is the Digikey links. From [Digikey](https://www.digikey.com/), you can order exactly the number of components you want. If you prefer, you'll find equivalent components on [Mouser](https://www.mouser.com/). In general, I recommend using Digikey or Mouser, but in the case of the toggle switches, I wasn't able to find an inexpensive option on Digikey or Mouser.
 
-## Battery holders (to crimp or not to crimp)
+## Battery holders
 
 There's no provision for an on-off switch on the PCBs (including one seemed like overkill), so to turn the device on and off, you'll need to either have an easy way to connect and disconnect the battery holders to and from the PCB or use battery holders that have an on-off switch built in. I don't much like the battery holders with on-off switches (there's no good way to mount them inside my 3D-printed frames), so I recommend using standard battery holders with a pin header and socket for easy connect and disconnect. To do this, you'll need to be able to do simple crimping. If you've never done it before, don't worry - it's easy and a crimping tool is cheap.
 
@@ -109,6 +109,8 @@ But if you're using a meter from the BoM or a Simpson like the one I used in the
 
 Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, there are tons of choices but make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-24 guage.
 
+## Optional components
+
 # 3. Solder the components to the PCBs
 
 Both PCBs are double-sided, so you'll need to solder components to both sides. The silkscreen markings indicate on which side and where each component goes. I recommend doing the rear side of each board first. Here is a photo of the rear side of both boards.
@@ -146,5 +148,29 @@ Go ahead and clean the rear side of both boards now. Your PCBs are now done. The
 ![Front side of both completed PCBs](assets/pcbs_front_all_done.jpg)
 
 # 4. Connect the battery holders and meter and ribbon cable
+
+To connect the battery holders to the Input board, ideally you're using the 4-pin header and socket, but if you have holders with built-in on-off switches, you can just solder directly to the board. Just make sure that the battery-holder lead wires line up properly with the holes on the board as shown in the photos in the "battery holders" section above. As labeled on the board, from top to bottom the order is: battery-1 positive, battery-1 negative, battery-2 positive, battery-2 negative. 
+
+If using the header and socket, insert the crimped leads into the socket in that order. Then when it's time to turn your Perceptron on, you just push the socket onto the header, making sure to do it in the correct orientation (with battery-1 positive at the top position). Fortunately, the battery-holder leads are color-coded, so just make sure that the red wire is at the top position.
+
+To connect the meter to the Adder board, you need 2 lengths of hook-up wire - about 6 inches is a reasonable length. I recommend using 2 different colors, say red for the positive lead and blue or black for the negative lead.
+
+![Connecting the meter to the Adder board](assets/meter_connection.jpg)
+
+They correspond to the markings on the PCB and to the markings on the meter. The meter's 2 binding posts should be labelled. For example, as viewed from behind, the 44C2 meter from the BoM has a "-" symbol embossed below the right binding post (though not very easy to see), and my Simpson 1329 meter has a "+" marking near the left binding post. If there is no marking, go with left as positive and right as negative (as viewed from behind).
+
+To connect the wires to the meter, I recommend using crimp-on ring terminals as shown in the image above. For the 44C2 meter, either M3 or #6 stud will fit well. Of course, you can also just wrap the stripped wire around the binding posts and secure with the washer and nut.
+
+To connect the wires to the Adder board, I recommend using a 2-pin header and socket as shown in the image above and just like the 4-pin header and socket recommended for the battery holders. Of course, you can also just solder the wires directly to the board.
+
+Finally, connect the 2 boards together with the ribbon cable as shown in several images above. If you're finding that the ribbon cable exits the connector going in the wrong direction, just swap ends.
+
+Your Perceptron should now work. Just push the battery-holders socket onto the header (red wire at the top) or flip the switches (if your battery holders have built in switches), and the LEDs should light up. Then as you turn the potentiometer knobs, you should see the meter needle move.
+
+If none of the LEDs light up, the problem is probably with the connection to the batteries. If the LEDs light up but are backwards color-wise, then either the battery leads are backwards or the LEDs were inserted backwards. If an individual LED is not lighting up, then it's probably bad. If the meter is not moving as much as you think it should, then maybe there's a retaining wire connected across the meter's binding posts. (Some meters, like my Simpson 1329, ship with a retaining wire connected across the binding posts to keep the needle from wiggling around during shipping.) If the needle is moving in the wrong direction, then maybe the meter leads are backwards.
+
+Finally, here's the one problem that I have actually encountered: an individual potentiometer not working - the meter needle doesn't respond to turning the knob. The problem could be the potentiometer, but for me, every time this happened it was not the potentiometer - it was fragility in the ribbon cable or in the ribbon-cable connector. Simply swapping the ribbon cable or disconnecting and reconnecting fixed the problem every time.
+
+If you don't have a 3D printer or are not planning to build frames, then you're done. The only additional things you might want to do is put knobs on the potentiometers and use some M3 standoffs so the boards stand above the table with room below for the connectors.
 
 # 5. (Optional) Build frames
