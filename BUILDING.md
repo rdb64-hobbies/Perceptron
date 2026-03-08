@@ -21,6 +21,16 @@ With a 3D printer, you can print the frames and make it look like this:
 
 If you don't have a 3D printer but still at least want a front plate for the weight knobs, there are some simple things you can do with sheet metal. Either way, it will work the same.
 
+If you want to skip this build guide and just jump right in with the schematics, the PCB Gerbers, and the BoM, then here they are:
+
+- Schematics:
+  - [Input board](assets/schematic_input.pdf)
+  - [Adder board](assets/schematic_adder.pdf)
+- PCB Gerbers:
+  - [Input board](PCBs/PerceptronInputGerbers.zip)
+  - [Adder board](PCBs/PerceptronAdderGerbers.zip)
+- BoM: [csv file](BoM.csv), [pdf file](assets/bom.pdf)
+
 # 1. Obtain the PCBs
 
 There are 2 PCBs - the *Input board* and the *Adder board* - and you can get them from a fabricator such as [JLCPCB](https://jlcpcb.com/) or [PCBWay](https://www.pcbway.com/). If you've never done this before, it may sound intimidating, but I can assure you that it's quite simple. I'll explain how to do it.
@@ -47,7 +57,7 @@ They'll probably take a little over a week to arrive. Rejoice!
 
 # 2. Obtain all of the other components
 
-[Here](BoM.csv) is the bill of materials (BoM) for all of the components you'll need:
+[Here](BoM.csv) is the Bill of Materials (BoM) for all of the components you'll need:
 
 [![Bill of Materials](assets/bom.png)](BoM.csv)
 
@@ -134,16 +144,6 @@ Moving on to the front side of the Adder board, this is where the 17 potentiomet
 Go ahead and clean the rear side of both boards now. Your PCBs are now done. They should look like this (in this case with the LEDs mounted a few millimeters above the board using the 3D printed jig):
 
 ![Front side of both completed PCBs](assets/pcbs_front_all_done.jpg)
-
-You don't really need them, but for completeness, here are the schematics for the two PCBs. If you click on the schematic image, you'll get the PDF version.
-
-Input board schematic:
-
-[![Input PCB schematic](assets/schematic_input.png)](assets/schematic_input.pdf)
-
-Adder board schematic:
-
-[![Adder PCB schematic](assets/schematic_adder.png)](assets/schematic_adder.pdf)
 
 # 4. Connect the battery holders and meter and ribbon cable
 
