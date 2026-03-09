@@ -111,6 +111,20 @@ Feel free to use components other than those linked in the BoM. For the toggle s
 
 ## Optional components
 
+For the wire connections to the meter, you can just wind stripped wire around the binding posts, but better to crimp on ring terminals. For the 44C2 meter, you'll want M3 or #6 stud terminals. You can get a full kit with different sizes from Amazon or individual connectors from Digikey or Mouser:
+
+- [Ring terminal kit from Amazon](https://www.amazon.com/gp/product/B0CCYJS85G/)
+- [Individual ring terminal connectors from Digikey](https://www.digikey.com/en/products/detail/molex/0190440066/3878515)
+
+If you don't have a 3D printer or are not going to build frames, you probably at least want some M3 standoffs, so the boards sit above the table with room below for the connectors.
+
+- [M3 standoffs from Amazon](https://www.amazon.com/gp/product/B0B3Y6WF2Y/)
+
+If you are going to 3D print frames, then besides the filament, you'll need M3x6 screws to fasten the boards to the frames, and either glue or M2x4 flat head (countersink) screws to fasten the battery holders to the frame.
+
+- [M3x6 round head screws from McMaster-Carr](https://www.mcmaster.com/97763A812/)
+- [M2x4 flat head screws from McMaster-Carr](https://www.mcmaster.com/91294A002/)
+
 # 3. Solder the components to the PCBs
 
 Both PCBs are double-sided, so you'll need to solder components to both sides. The silkscreen markings indicate on which side and where each component goes. I recommend doing the rear side of each board first. Here is a photo of the rear side of both boards.
