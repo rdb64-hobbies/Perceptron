@@ -72,17 +72,19 @@ The `Qty` column tells you how many of each component you'll need, but realize t
 
 ## Battery holders
 
-There's no provision for an on-off switch on the PCBs (including one seemed like overkill), so to turn the device on and off, you'll need to either have an easy way to connect and disconnect the battery holders to and from the PCB or use battery holders that have an on-off switch built in. I don't much like the battery holders with on-off switches (there's no good way to mount them inside my 3D-printed frames), so I recommend using standard battery holders with a pin header and socket for easy connect and disconnect. To do this, you'll need to be able to do simple crimping. If you've never done it before, don't worry - it's easy and a crimping tool is cheap.
+There's no provision for an on-off switch on the PCBs (including one seemed like overkill), so to turn the device on and off, you'll need to either have an easy way to connect and disconnect the battery holders to and from the PCB or use battery holders that have an on-off switch built in. I don't much like the battery holders with on-off switches (there's no good way to mount them inside my 3D-printed frames), so I recommend using standard battery holders, like the ones under the `Link` column, with a pin header and socket for easy connect and disconnect. 
 
-The `Alt Link` for the battery holders is to holders that do have an on-off switch built in, so if you use those, you can just solder the wire leads directly to the PCB like this:
-
-![Battery holders with switches soldered directly to PCB](assets/battery_direct.jpg)
-
-Easy, but I don't much like it - not just because I don't much like the holders with switches, but because it's just awkward to have the holders permanently soldered to the PCB. Better is to connect the battery holders to the PCB with a pin header and socket like this:
+To use the pin header and socket, you'll need to be able to do simple crimping. If you've never done it before, don't worry - it's easy and a crimping tool is cheap. The result will look like this:
 
 ![Battery holders connected via pin header and socket](assets/battery_crimp.jpg)
 
 You can also use this method to connect the meter to the other PCB. Again, much better than soldering directly to the PCB.
+
+If you really insist on soldering directly to the PCB, then the `Alt Link` goes to holders that do have an on-off switch built in.
+
+![Battery holders with switches soldered directly to PCB](assets/battery_direct.jpg)
+
+Easy, but I don't much like it - not just because I don't much like the holders with switches, but because it's just awkward to have the holders permanently soldered to the PCB.
 
 ## Pin headers and sockets
 
@@ -108,11 +110,11 @@ But if you're using a meter from the BoM or a Simpson like the one I used in the
 
 ## Other components
 
-Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. The potentiometers from Digikey (the `Alt Link`) are a bit more expensive, but they have a center detent which I like. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, any power rating and tolerance will be fine, and there are tons of choices. Just make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-24 guage.
+Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. The potentiometers from Digikey (the `Alt Link`) are a bit more expensive, but they have a center detent which I like. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, any colors except blue should work fine. Just make sure that the lead spacing is 2.54mm. For the resistors, any power rating and tolerance will be fine, and there are tons of choices. Just make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-24 guage.
 
 ## Optional components
 
-For the wire connections to the meter, you can just wind stripped wire around the binding posts, but better to crimp on ring terminals. For the 44C2 meter, you'll want M3 or #6 stud terminals. You can get a full kit with different sizes from Amazon or individual connectors from Digikey or Mouser:
+For the wire connections to the meter, you can just wind stripped wire around the binding posts but better to crimp on ring terminals. For the 44C2 meter, you'll want M3 or #6 stud terminals. You can get a full kit with different sizes from Amazon or individual connectors from Digikey or Mouser:
 
 - [Ring terminal kit from Amazon](https://www.amazon.com/gp/product/B0CCYJS85G/)
 - [Individual ring terminal connectors from Digikey](https://www.digikey.com/en/products/detail/molex/0190440066/3878515)
@@ -176,7 +178,7 @@ To complete your Perceptron, all that remains is to connect the battery holders 
 
 ## Battery holders
 
-To connect the battery holders to the Input board, ideally you're using the 4-pin header and socket, but if you have holders with built-in on-off switches, you can just solder directly to the board. Just make sure that the battery-holder lead wires line up properly with the holes on the board as shown in the photos in the "battery holders" section above. As labeled on the board, from top to bottom the order is: battery-1 positive, battery-1 negative, battery-2 positive, battery-2 negative. 
+To connect the battery holders to the Input board, ideally you're using the 4-pin header and socket, but if you have holders with built-in on-off switches, you can just solder directly to the board. Just make sure that the battery-holder lead wires line up properly with the holes on the board as shown in the photos in the "Battery holders" section above. As labeled on the board, from top to bottom the order is: battery-1 positive, battery-1 negative, battery-2 positive, battery-2 negative. 
 
 If using the header and socket, insert the crimped leads into the socket in that order. Then when it's time to turn your Perceptron on, you just push the socket onto the header, making sure to do it in the correct orientation (with battery-1 positive at the top position). Fortunately, the battery-holder leads are color-coded, so just make sure that the red wire is at the top position.
 
@@ -223,22 +225,22 @@ The file names should be pretty self-explanatory, but here's a list:
 - [adder_with_44C2meter_frame.3mf](Frames/adder_with_44C2meter_frame.3mf) - the frame for the Adder board with the 44C2 meter (orange part at right of photo above)
 - [adder_with_S1329meter_frame.3mf](Frames/adder_with_S1329meter_frame.3mf) - the frame for the Adder board with the Simpson 1329 meter (similar to the orange part at right of photo above)
 - [adder_no_meter_frame.3mf](Frames/adder_no_meter_frame.3mf) - the frame for the Adder board with no meter (not shown)
-- [pots_face_plate_outie.3mf](Frames/pots_face_plate_outie.3mf) - the face plate for the potentiometers with the dial markings embossed outwards (blue part on the Adder frame)
-- [pots_face_plate_innie.3mf](Frames/pots_face_plate_innie.3mf) - the face plate for the potentiometers with the dial markings debossed inwards (similar to the blue part on the Adder frame)
+- [pots_face_plate_outie.3mf](Frames/pots_face_plate_outie.3mf) - the face plate for the potentiometers with the dial markings embossed outwards (blue part on the adder frame)
+- [pots_face_plate_innie.3mf](Frames/pots_face_plate_innie.3mf) - the face plate for the potentiometers with the dial markings debossed inwards (similar to the blue part on the adder frame)
 
 All of these objects can be printed with PLA, no supports, and simple (default) settings.
 
 ## Soldering jig
 
-The first of these objects that you'll want to print is the Input board soldering jig, since you need it to solder the components on the front side of the Input board. After you're done soldering, it's a throw-away part, so you can print it with the cheapest and fastest settings available. The jig looks like this with the bottom slide up:
+The first of these objects that you'll want to print is the Input-board soldering jig, since you need it to solder the components on the front side of the Input board. After you're done soldering, it's a throw-away part, so you can print it with the cheapest and fastest settings available. The jig looks like this with the bottom slide up:
 
 ![Input board soldering jig](assets/jig.jpg)
 
-To use it, first insert all of the front-side components: the switches and the LEDs. Make sure that the switches are all toggled up or all toggled down. And make sure that the LEDs are all inserted in the right orientation (e.g., all of them with the long lead on the right).
+To use it, first insert all of the front-side components: the switches and the LEDs. Make sure that the switches are all toggled up or all toggled down (just to make it possible to slide the jig over them). And make sure that the LEDs are all inserted in the right orientation (e.g., all of them with the long lead on the right).
 
 ![Components inserted on front side of Input board](assets/jig_use1.jpg)
 
-Now place the jig on top of the components, making sure that all of the holes line up so each switch goes into its hole and each LED goes into its hole. It likely will require a bit of wiggling to get everything to line up properly and to allow the jig to sit flat on the board. You should see all of the switches sticking up through the top of the jig.
+Now slide the jig over the top of the components, making sure that all of the holes line up so each switch goes into its hole and each LED goes into its hole. It likely will require a bit of wiggling to get everything to line up properly and to allow the jig to sit flat on the board. You should see all of the switches sticking up through the top of the jig.
 
 ![Switches sticking up through jig](assets/jig_use2.jpg)
 
@@ -246,7 +248,7 @@ And the jig should be sitting flat on the board.
 
 ![Jig sitting flat on board](assets/jig_use3.jpg)
 
-Now you can turn the jig over and sit it down on the table. You should see all of the LED leads (and the switch leads) sticking up through the bottom of the board. Note that all of the LED leads have the long lead on the same side (the left side in this photo, which would be the right side when looking from the top).
+Now you can turn the jig over and sit it down on the table. You should see all of the LED leads (and the switch leads) sticking up through the bottom of the board. Note that all of the LED leads have the long lead on the same side (the left side in this photo, which is the right side when looking from the top).
 
 ![LED leads sticking up through bottom of board](assets/jig_use4.jpg)
 
