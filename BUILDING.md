@@ -8,7 +8,7 @@ The outline of the build process is as follows:
 1. Obtain the PCBs.
 2. Obtain all of the other components.
 3. Solder the components to the PCBs.
-4. Connect the battery holders and meter and ribbon cable.
+4. Final assembly.
 5. (Optional) Build frames.
 
 The last step is optional for those who want to make it look nice. You'll need a 3D printer. Without this step, your Perceptron will look something like this:
@@ -127,7 +127,11 @@ If you are going to 3D print frames, then besides the filament, you'll need M3x6
 
 # 3. Solder the components to the PCBs
 
-Both PCBs are double-sided, so you'll need to solder components to both sides. The silkscreen markings indicate on which side and where each component goes. I recommend doing the rear side of each board first. Here is a photo of the rear side of both boards.
+Both PCBs are double-sided, so you'll need to solder components to both sides. The silkscreen markings indicate on which side and where each component goes. I recommend doing the rear side of each board first.
+
+## Rear side
+
+Here is a photo of the rear side of both boards.
 
 ![Rear side of both PCBs](assets/pcbs_rear.jpg)
 
@@ -145,6 +149,8 @@ If you're going to solder the battery holder wires and meter wires directly to t
 
 This is now a good time to clean the front side of both boards - the side where you just did the soldering. A scrub with a stiff-bristled brush and isopropyl alcohol will do the trick.
 
+## Front side
+
 Now on to the front-side components (which, of course, get soldered on the rear side). Here is a photo of the front side of both boards with all of the rear-side components already soldered in place.
 
 ![Front side of both PCBs with rear done](assets/pcbs_front_rear_done.jpg)
@@ -161,11 +167,19 @@ Go ahead and clean the rear side of both boards now. Your PCBs are now done. The
 
 ![Front side of both completed PCBs](assets/pcbs_front_all_done.jpg)
 
-# 4. Connect the battery holders and meter and ribbon cable
+Rejoice again!
+
+# 4. Final assembly
+
+To complete your Perceptron, all that remains is to connect the battery holders to the Input board, connect the meter to the Adder board, and connect the two boards together with the ribbon cable.
+
+## Battery holders
 
 To connect the battery holders to the Input board, ideally you're using the 4-pin header and socket, but if you have holders with built-in on-off switches, you can just solder directly to the board. Just make sure that the battery-holder lead wires line up properly with the holes on the board as shown in the photos in the "battery holders" section above. As labeled on the board, from top to bottom the order is: battery-1 positive, battery-1 negative, battery-2 positive, battery-2 negative. 
 
 If using the header and socket, insert the crimped leads into the socket in that order. Then when it's time to turn your Perceptron on, you just push the socket onto the header, making sure to do it in the correct orientation (with battery-1 positive at the top position). Fortunately, the battery-holder leads are color-coded, so just make sure that the red wire is at the top position.
+
+## Meter
 
 To connect the meter to the Adder board, you need 2 lengths of hook-up wire - about 6 inches is a reasonable length. I recommend using 2 different colors, say red for the positive lead and blue or black for the negative lead.
 
@@ -177,7 +191,11 @@ To connect the wires to the meter, I recommend using crimp-on ring terminals as 
 
 To connect the wires to the Adder board, I recommend using a 2-pin header and socket as shown in the image above and just like the 4-pin header and socket recommended for the battery holders. Of course, you can also just solder the wires directly to the board.
 
+## Ribbon cable
+
 Finally, connect the 2 boards together with the ribbon cable as shown in several images above. If you're finding that the ribbon cable exits the connector going in the wrong direction, just swap ends.
+
+## Testing and troubleshooting
 
 Your Perceptron should now work. Just push the battery-holders socket onto the header (red wire at the top) or flip the switches (if your battery holders have built in switches), and the LEDs should light up. Then as you turn the potentiometer knobs, you should see the meter needle move.
 
