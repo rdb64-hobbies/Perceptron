@@ -13,15 +13,15 @@ The outline of the build process is as follows:
 
 The last step is optional for those who want to make it look nice. You'll need a 3D printer. Without this step, your Perceptron will look something like this:
 
-![Perceptron built without any frame](assets/built_noframe.jpg)
+![Perceptron built without any frame](assets/working_noframe.jpg)
 
 With a 3D printer, you can print the frames and make it look like this:
 
-![Perceptron built with frame](assets/built.jpg)
+![Perceptron built with frame](assets/working.jpg)
 
 If you don't have a 3D printer but still at least want a front plate for the weight knobs, there are some simple things you can do with sheet metal. Either way, it will work the same.
 
-If you want to skip this build guide and just jump right in with the schematics, the PCB Gerbers, and the BoM, then here they are:
+If you want to skip this build guide and just jump right in with the schematics, the PCB Gerbers, the BoM, and the 3D-print files, then here they are:
 
 - Schematics:
   - [Input board](assets/schematic_input.pdf)
@@ -30,6 +30,7 @@ If you want to skip this build guide and just jump right in with the schematics,
   - [Input board](PCBs/PerceptronInputGerbers.zip)
   - [Adder board](PCBs/PerceptronAdderGerbers.zip)
 - BoM: [csv file](BoM.csv), [pdf file](assets/bom.pdf)
+- 3D-print files: [Frames directory](Frames/)
 
 # 1. Obtain the PCBs
 
@@ -107,7 +108,7 @@ But if you're using a meter from the BoM or a Simpson like the one I used in the
 
 ## Other components
 
-Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, there are tons of choices but make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-24 guage.
+Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. The potentiometers from Digikey (the `Alt Link`) are a bit more expensive, but they have a center detent which I like. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, just make sure that the lead spacing is 2.54mm. For the resistors, any power rating and tolerance will be fine, and there are tons of choices. Just make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-24 guage.
 
 ## Optional components
 
@@ -207,9 +208,11 @@ If you don't have a 3D printer or are not planning to build frames, then you're 
 
 # 5. (Optional) Build frames
 
-The 3D print files, in 3mf format, are all in the [Frames](Frames) directory, and they're split between the actual frames - the orange parts in this photo - and the face plates - the blue parts. I made them separate objects, because i wanted to do them in different colors, and I don't have a multi-color 3D printer.
+The 3D print files, in 3mf format, are all in the [Frames](Frames) directory, and they're split between the actual frames - the orange parts in this photo - and the face plates - the blue parts. I made them separate objects, because i wanted to do them in different colors, and I don't have a multi-color 3D printer. 
 
 ![3D printed frames](assets/frames.jpg)
+
+In this directory you'll also find the soldering jig that you need to mount the LEDs at the right height above the Input board, as described in the "Soldering the components to the PCBs" section above.
 
 The file names should be pretty self-explanatory, but here's a list:
 
@@ -217,8 +220,74 @@ The file names should be pretty self-explanatory, but here's a list:
 - [input_frame.3mf](Frames/input_frame.3mf) - the frame for the Input board (orange part at left of photo above)
 - [switches_face_plate.3mf](Frames/switches_face_plate.3mf) - the face plate for the switches (blue part on the left side of the input frame)
 - [LEDs_face_plate.3mf](Frames/LEDs_face_plate.3mf) - the face plate for the LEDs (blue part on the right side of the input frame)
-- [adder_with_S1329meter_frame.3mf](Frames/adder_with_S1329meter_frame.3mf) - the frame for the Adder board with the Simpson 1329 meter (orange part at right of photo above)
-- [adder_with_44C2meter_frame.3mf](Frames/adder_with_44C2meter_frame.3mf) - the frame for the Adder board with the 44C2 meter (similar to the orange part at right of photo above)
+- [adder_with_44C2meter_frame.3mf](Frames/adder_with_44C2meter_frame.3mf) - the frame for the Adder board with the 44C2 meter (orange part at right of photo above)
+- [adder_with_S1329meter_frame.3mf](Frames/adder_with_S1329meter_frame.3mf) - the frame for the Adder board with the Simpson 1329 meter (similar to the orange part at right of photo above)
 - [adder_no_meter_frame.3mf](Frames/adder_no_meter_frame.3mf) - the frame for the Adder board with no meter (not shown)
 - [pots_face_plate_outie.3mf](Frames/pots_face_plate_outie.3mf) - the face plate for the potentiometers with the dial markings embossed outwards (blue part on the Adder frame)
 - [pots_face_plate_innie.3mf](Frames/pots_face_plate_innie.3mf) - the face plate for the potentiometers with the dial markings debossed inwards (similar to the blue part on the Adder frame)
+
+All of these objects can be printed with PLA, no supports, and simple (default) settings.
+
+## Soldering jig
+
+The first of these objects that you'll want to print is the Input board soldering jig, since you need it to solder the components on the front side of the Input board. After you're done soldering, it's a throw-away part, so you can print it with the cheapest and fastest settings available. The jig looks like this with the bottom slide up:
+
+![Input board soldering jig](assets/jig.jpg)
+
+To use it, first insert all of the front-side components: the switches and the LEDs. Make sure that the switches are all toggled up or all toggled down. And make sure that the LEDs are all inserted in the right orientation (e.g., all of them with the long lead on the right).
+
+![Components inserted on front side of Input board](assets/jig_use1.jpg)
+
+Now place the jig on top of the components, making sure that all of the holes line up so each switch goes into its hole and each LED goes into its hole. It likely will require a bit of wiggling to get everything to line up properly and to allow the jig to sit flat on the board. You should see all of the switches sticking up through the top of the jig.
+
+![Switches sticking up through jig](assets/jig_use2.jpg)
+
+And the jig should be sitting flat on the board.
+
+![Jig sitting flat on board](assets/jig_use3.jpg)
+
+Now you can turn the jig over and sit it down on the table. You should see all of the LED leads (and the switch leads) sticking up through the bottom of the board. Note that all of the LED leads have the long lead on the same side (the left side in this photo, which would be the right side when looking from the top).
+
+![LED leads sticking up through bottom of board](assets/jig_use4.jpg)
+
+If you want, you can now temporarily secure the board to the jig with M3x6 screws in the mounting holes.
+
+Next, you want to push each of the LEDs down into the bottom of the hole in the jig. Just gently push down on the leads and maybe wiggle a bit. You want to make sure each LED is pushed all the way down. You should be able to see that all of the LEDs have their left leads sticking up to the exact same height and likewise the right leads.
+
+![LEDs pushed all the way down](assets/jig_use5.jpg)
+
+Now you can go ahead and solder everything as you normally would. When done, just remove the jig. Your Input board should look like this with all of the LEDs sticking up above the board by the exact same and correct amount.
+
+![Input board done with LEDs sticking up the same amount](assets/input_board_all_done.jpg)
+
+Aint that beautiful?
+
+## Input-board frame
+
+For the Input-board frame you'll need to print out the frame itself and the two face plates. Once printed, use M3x6 round head screws to secure the board to the frame. There's also a place where you can secure the battery holders either with glue or M2x4 flat head screws.
+
+![Input-board frame with board and battery holders mounted](assets/input_frame_mounting.jpg)
+
+## Adder-board and meter frame
+
+For the Adder-board and meter frame you'll need to print out the right frame for the type of meter you have and a face plate. If you don't have a 44C2 or Simpson 1329 meter, then you can print out a the frame with no meter. For the potentiometers' face plate, I created two choices: one with the dial markings embossed outwards and one with the dial markings debossed inwards.
+
+![Two potentiometer face plates](assets/pots_face_plates.jpg)
+
+If you use the embossed version, then during printing, you can do a color change for the last 2 layers to make the dial markings visible as seen above left. If you use the debossed version, then when printing is done, you can use an ultra-fine point marker to color in the dial markings as seen above right.
+
+Once everything is printed, use M3x6 round head screws to secure the board to the frame, and use the hardware supplied with your meter to secure the meter to the frame.
+
+![Adder-board and meter frame with board and meter mounted](assets/adder_frame_mounting.jpg)
+
+## Final assembly
+
+Turned right-side up, your two frames should now look like this:
+
+![Both frames done](assets/frames_done.jpg)
+
+Now just pop on the face plates, pop on the potentiometer knobs (after the face plate), connect the boards with the ribbon cable, connect the meter to the Adder board, insert the batteries, and you're done! Turn it on and watch the lights light up!
+
+![Perceptron all done](assets/all_done.jpg)
+
+Now rejoice and go teach someone about neural nets.
