@@ -78,7 +78,7 @@ To use the pin header and socket, you'll need to be able to do simple crimping. 
 
 ![Battery holders connected via pin header and socket](assets/battery_crimp.jpg)
 
-You can also use this method to connect the meter to the other PCB. Again, much better than soldering directly to the PCB.
+You can also use this method to connect the meter to the other PCB. Much better than soldering directly to the PCB.
 
 If you really insist on soldering directly to the PCB, then the `Alt Link` goes to holders that do have an on-off switch built in.
 
