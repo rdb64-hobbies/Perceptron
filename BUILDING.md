@@ -206,3 +206,19 @@ Finally, here's the one problem that I have actually encountered: an individual 
 If you don't have a 3D printer or are not planning to build frames, then you're done. The only additional things you might want to do is put knobs on the potentiometers and use some M3 standoffs so the boards stand above the table with room below for the connectors.
 
 # 5. (Optional) Build frames
+
+The 3D print files, in 3mf format, are all in the [Frames](Frames) directory, and they're split between the actual frames - the orange parts in this photo - and the face plates - the blue parts. I made them separate objects, because i wanted to do them in different colors, and I don't have a multi-color 3D printer.
+
+![3D printed frames](assets/frames.jpg)
+
+The file names should be pretty self-explanatory, but here's a list:
+
+- [input_board_solder_jig.3mf](Frames/input_board_solder_jig.3mf) - the soldering jig to mount the LEDs at the right height above the board
+- [input_frame.3mf](Frames/input_frame.3mf) - the frame for the Input board (orange part at left of photo above)
+- [switches_face_plate.3mf](Frames/switches_face_plate.3mf) - the face plate for the switches (blue part on the left side of the input frame)
+- [LEDs_face_plate.3mf](Frames/LEDs_face_plate.3mf) - the face plate for the LEDs (blue part on the right side of the input frame)
+- [adder_with_S1329meter_frame.3mf](Frames/adder_with_S1329meter_frame.3mf) - the frame for the Adder board with the Simpson 1329 meter (orange part at right of photo above)
+- [adder_with_44C2meter_frame.3mf](Frames/adder_with_44C2meter_frame.3mf) - the frame for the Adder board with the 44C2 meter (similar to the orange part at right of photo above)
+- [adder_no_meter_frame.3mf](Frames/adder_no_meter_frame.3mf) - the frame for the Adder board with no meter (not shown)
+- [pots_face_plate_outie.3mf](Frames/pots_face_plate_outie.3mf) - the face plate for the potentiometers with the dial markings embossed outwards (blue part on the Adder frame)
+- [pots_face_plate_innie.3mf](Frames/pots_face_plate_innie.3mf) - the face plate for the potentiometers with the dial markings debossed inwards (similar to the blue part on the Adder frame)
