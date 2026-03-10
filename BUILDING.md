@@ -56,6 +56,8 @@ They'll probably take a little over a week to arrive. Rejoice!
 
 ![PCBs](assets/pcbs.jpg)
 
+Note that the PCB photos in this build guide are from an earlier revision, so if your PCBs look a bit different, that's ok.
+
 # 2. Obtain all of the other components
 
 [Here](BoM.csv) is the Bill of Materials (BoM) for all of the components you'll need:
