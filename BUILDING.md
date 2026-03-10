@@ -266,7 +266,7 @@ Aint that beautiful?
 
 ## Input-board frame
 
-For the Input-board frame you'll need to print out the frame itself and the two face plates. Once printed, use M3x6 round head screws to secure the board to the frame. There's also a place where you can secure the battery holders either with glue or M2x4 flat head screws.
+For the Input-board frame you'll need to print out the frame itself and the two face plates. Once printed, use M3x6 round head screws to secure the board to the frame. There's also a place where you can secure the battery holders either with glue or M2x4 flat head screws. The screw holes in the frame are sized for easy self tapping (after all, mechanical strength isn't a big issue here), and I like to tap each hole by inserting and removing a screw before actually mounting the board and battery holders.
 
 ![Input-board frame with board and battery holders mounted](assets/input_frame_mounting.jpg)
 
