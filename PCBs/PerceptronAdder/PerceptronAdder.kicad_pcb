@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Perceptron Adder")
-		(date "2026-02-20")
-		(rev "2.1")
+		(date "2026-03-11")
+		(rev "2.2")
 		(company "RDB64")
 	)
 	(layers
@@ -147,7 +147,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV7"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "a82c8a1c-c376-4cda-a130-185b3ee0e562")
 			(effects
@@ -231,7 +231,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3d90f720-48e6-4b64-a302-9050b87d697b")
+			(uuid "be512e2a-fa6d-4041-a533-ab14dd5f14b2")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -241,7 +241,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2daf6e4b-fe6c-452a-a208-edc0aaca0930")
+			(uuid "a25ef3a2-8f92-4a64-8896-f9083c690cde")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -251,7 +251,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fb66a6fc-36e2-47c2-a8ca-7ea659015daf")
+			(uuid "0dc41366-2bda-4c80-9adf-8851fdd563db")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -261,7 +261,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6be6c952-e5dd-4c75-90e7-d50235a80ce6")
+			(uuid "6bc14c5c-7667-4ad5-a9cf-550bebce75b2")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -271,7 +271,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1d8f3e6a-36db-4d56-b19d-ec290f287b4b")
+			(uuid "082ecf14-914d-4971-9fe3-1c4b6f10a039")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -281,7 +281,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4f457be9-3e2a-4bc5-85dd-92d23bf5bf39")
+			(uuid "82177349-c98d-4e29-abc3-8351f7cbe142")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -291,7 +291,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b922fc12-0ea7-4971-97fd-8ac20f661798")
+			(uuid "821352b6-2ec0-460f-9f3d-d1757da3ba58")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -301,7 +301,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad2cc235-96ea-4795-934f-8ba6da604e34")
+			(uuid "fb31e991-f4fd-405a-98e1-8662b7a1a3c1")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -311,7 +311,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "18fcef95-cfd2-4462-92eb-9229a839cbbe")
+			(uuid "9c03b527-65f3-4c77-8d92-a10a685d5ae2")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -322,7 +322,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "067a97d2-0198-4f56-9ed9-43905cad3d32")
+			(uuid "e917b39f-7349-4e24-b371-a21cd44f4ff8")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -333,7 +333,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "b32d72e5-97c8-4116-8dae-1ec6ef6c3398")
+			(uuid "b37010b2-be62-4598-b5a8-823db5bbfa08")
 		)
 		(fp_circle
 			(center 0 0)
@@ -344,7 +344,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "449bfd17-69aa-4111-803d-7eaf8295b7c0")
+			(uuid "cb72204e-e1d3-4447-93cd-266bdfe103da")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -404,7 +404,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "d9d627ae-5cce-4fbb-926d-83171c04d56a")
+			(uuid "9cc25530-4adb-4c86-b9f0-e3569dd64641")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -554,7 +554,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV6"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "03fed1ab-dbfb-4d75-92be-dee75f4c1b4e")
 			(effects
@@ -638,7 +638,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3269c495-4a67-4b43-b4e4-6f264f19ad87")
+			(uuid "907eee94-1fc7-4128-8dbc-9acd60b7c6f1")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -648,7 +648,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "be0bb330-2e55-493d-ade2-b6cf82f3df03")
+			(uuid "5d5e10ed-fc7f-4246-ae98-0b3a152255c5")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -658,7 +658,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2ad30a35-bac6-4441-84af-8a2885007e11")
+			(uuid "bf396132-8497-4e62-9e45-8ebbe398fe22")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -668,7 +668,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6abfc8c3-5d5c-4272-a1b5-97c53be4edb6")
+			(uuid "7fd38af7-c8c3-4445-b8b0-511d98cfc8e3")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -678,7 +678,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "741e61cb-3f3c-4cef-9adc-4e742f9391e0")
+			(uuid "ecf857ce-1da6-4a70-bf76-016731321282")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -688,7 +688,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9ace880a-ab19-4fe8-9995-ca3ab866153b")
+			(uuid "033d6d30-aa73-410f-a594-d1f8065290f3")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -698,7 +698,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92c4bbc2-e17e-40fd-879b-a4376b73e3ce")
+			(uuid "cddd9de6-875d-4d43-ac4b-37d07ea131ec")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -708,7 +708,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "422718ed-ac53-42d1-878e-b004bb33ac31")
+			(uuid "f0982e5b-f2d2-442f-b50e-77005abd7e3d")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -718,7 +718,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "849faa50-52ad-4f47-8256-e8dbadf77e7e")
+			(uuid "a861bacd-8a7e-49ab-824d-1934ab3b1d89")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -729,7 +729,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "86f3090e-93db-4781-ae7f-202943f75f41")
+			(uuid "3c6b865b-32c9-4adc-93f8-8369e84b4ae6")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -740,7 +740,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "83bc7dcf-e372-4ca6-89f0-9df5ad34aa1a")
+			(uuid "e58980fe-f69d-4d58-817e-81391db0be5b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -751,7 +751,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "80c43a6a-475d-462a-a66b-0e8c121f2851")
+			(uuid "b14f92fe-7408-4088-b6e5-0d0c15190cfb")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -811,7 +811,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "ae6d8018-c84f-48f0-8560-e234a4cad06f")
+			(uuid "943954c7-bfae-471a-8ffd-a96195bae8f6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -833,7 +833,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV11"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "ba252023-12dd-4da9-90cd-dfe3da5b4e83")
 			(effects
@@ -917,7 +917,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f5401eaa-1c43-40bd-aedc-a273e69cc660")
+			(uuid "d3064615-52fe-4e21-9344-ccffdea23921")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -927,7 +927,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "da916b14-ae0a-4b9f-b83b-b2c71019fbde")
+			(uuid "bd734679-8454-42a5-b36a-3b52da3fad9c")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -937,7 +937,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2aee9bc1-d2db-4ed7-8716-4c37e1df25c6")
+			(uuid "85f18207-8dd1-4e55-b8a4-39ed3823991b")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -947,7 +947,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a2677051-f2cb-4d21-9d11-466ab12a1095")
+			(uuid "53c551f1-abe6-4eb9-9781-82ad3dbb4823")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -957,7 +957,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "04c8b670-32cb-4a02-883c-57b25fc1b829")
+			(uuid "a7ce7c40-686f-49bd-8a98-b58d1a4e4a85")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -967,7 +967,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "618a5024-4e0d-481e-ad08-3df96224470c")
+			(uuid "cc753c1b-4402-40b2-a1d3-9c1c3af25d8f")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -977,7 +977,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "33681008-c208-4fbf-9aa4-3bbbf7074b09")
+			(uuid "c738ce7a-76ec-4307-afc6-8930bfa1f7c3")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -987,7 +987,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "12b50ad2-e8de-43c5-b25d-491ade224155")
+			(uuid "d55a4707-a5c6-4e0f-abb0-6f5c9c7991a9")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -997,7 +997,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f226e0a7-dddf-4464-ad2a-5109d2be1e45")
+			(uuid "2a11ee3f-422d-45f1-96d0-9648c86a707a")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -1008,7 +1008,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "95704126-61e6-4236-8789-eb0dd54602b7")
+			(uuid "eccbb5d4-b8bd-4c0a-8165-25c3716ee73b")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -1019,7 +1019,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "9a237acd-ea9f-423b-822a-e2bd39a9443a")
+			(uuid "d446b4cf-15a4-49d5-96bc-d851b83d5a7f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1030,7 +1030,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0d2c66bf-fa1d-499e-b711-c9a76e7965fc")
+			(uuid "88a81cc1-b88a-4709-a6c1-33823260c716")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -1090,7 +1090,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "952a0737-ab27-4b3c-b801-8f1514e7c0d9")
+			(uuid "1d86a35d-88f8-4a90-a9a0-50cd7d876f13")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -1112,7 +1112,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV5"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "883f9e71-a81c-435a-a8af-2f5b0520a0ab")
 			(effects
@@ -1196,7 +1196,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cbe4e3aa-7a7f-4d01-82af-bd94d02b892a")
+			(uuid "2b6b4fa3-72ea-4c5e-8d27-44c8d0e99d41")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -1206,7 +1206,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9b66348b-1224-4014-8240-1f756f4775f0")
+			(uuid "c326cd6f-59c5-4778-9767-c6b07f86f911")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -1216,7 +1216,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2ef52d34-0e24-4491-b9d7-0adc8f3c7ab6")
+			(uuid "7547c9cd-8bf6-4de8-bdd5-5e7c76943bb1")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -1226,7 +1226,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c2883bf-d69c-4c94-b341-50b45b05bf82")
+			(uuid "7f57071e-d7d1-413a-9093-fb0ea21ebdfa")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -1236,7 +1236,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3f795e18-4a11-44ab-8f75-aac9de4b465c")
+			(uuid "01f60b67-ffec-45ac-9702-b703f6eee836")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -1246,7 +1246,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5ac5d5b9-3b6d-4b3a-bdce-011f97a31e02")
+			(uuid "8b08fc26-9dae-4a5e-87b1-f4173b9f12d4")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -1256,7 +1256,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7486a279-9cff-4f0b-95f4-98dc0676b3ae")
+			(uuid "6ecbfd2c-d6b9-4eec-8e2c-7b527ecfbe07")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -1266,7 +1266,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fac7498f-7299-446f-bf32-862ab81a6d65")
+			(uuid "404c1063-001d-4535-b54a-531aa2a7dac3")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -1276,7 +1276,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2fb793b4-d37f-4b4f-95c0-200116ff4caa")
+			(uuid "443a1a19-fa85-479b-9206-cfa6e488ea6f")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -1287,7 +1287,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "15be364b-5d75-4614-a05a-b728bc3afa83")
+			(uuid "6d04f5a9-b4f7-4f05-93ef-481284db8491")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -1298,7 +1298,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "acaac3d9-2bf4-489f-b777-bb6ce4affa99")
+			(uuid "b8e1ddb4-7339-402c-a00f-97461212a303")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1309,7 +1309,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a50347b8-6a07-4cba-8313-4058ff190035")
+			(uuid "148cb6cd-81bf-4218-b42c-9513efad303d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -1369,7 +1369,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "e8579e8a-05bd-4e37-8830-e9c9307a3a31")
+			(uuid "3d589419-6d6d-4968-baa4-59a316da572a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -1391,7 +1391,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV17"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "c3a5b5ac-96b6-442f-a318-ed211483575f")
 			(effects
@@ -1475,7 +1475,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3352323c-3b9a-4254-8860-e85201fb7921")
+			(uuid "9ece758d-1124-4506-a798-e145fed01e2d")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -1485,7 +1485,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "20781630-8b4f-480d-9856-0b5fe316563f")
+			(uuid "4799c34d-b527-433d-a7f4-98c90d5d98ac")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -1495,7 +1495,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8673bb02-98db-4de8-8284-1e38f22181b3")
+			(uuid "2515f867-0636-454c-a484-f7681ce187ec")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -1505,7 +1505,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "81f3de7c-fb84-47c1-81e9-ab6bedda9e36")
+			(uuid "4eec107f-1b1c-4d5f-986e-bb1ace219946")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -1515,7 +1515,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b4118c22-bef5-46ac-8bac-9453bd595132")
+			(uuid "58d71832-f1b8-46dc-847a-cb845953811a")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -1525,7 +1525,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4112332f-f129-4a40-95a0-151e60300d6e")
+			(uuid "eef0c581-7931-4759-98bb-fe12cfbdb273")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -1535,7 +1535,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "90c9499c-13d3-4a5d-9f74-c1c1508b5336")
+			(uuid "57a91b7e-8052-4e1b-80f1-bb27abb9c5e8")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -1545,7 +1545,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "80523255-95b2-4c05-a2b3-f0a82848cdf7")
+			(uuid "e1075c34-d66f-4cf1-97f2-f7268552af2c")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -1555,7 +1555,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0b3c024e-d828-46f3-96af-61c684cccc16")
+			(uuid "2689e0d3-ce28-4eae-b07d-b1348da5b658")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -1566,7 +1566,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b6a84438-c732-4fc3-952f-a8158640ddde")
+			(uuid "8f3319f9-1f13-40ab-8add-1c8e3aeca88e")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -1577,7 +1577,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0cf39202-5de5-4abe-b84d-70046111be30")
+			(uuid "969c48fd-d7a1-49e8-b6d6-70552e6fa88c")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1588,7 +1588,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1daf43a4-93bd-4e9d-83be-0f0719b35b73")
+			(uuid "5ba20a6f-00e4-43d6-bb30-b6d8a85feafb")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -1648,7 +1648,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "8c536b73-2f3c-4715-93b5-849932b33ae6")
+			(uuid "0d016911-24bb-4076-ab87-29f307753893")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -1670,7 +1670,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV2"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "93cdf69a-d469-42dc-ba5b-455769ebf4eb")
 			(effects
@@ -1754,7 +1754,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "18d7bf06-37ce-40c2-b091-6bf89c59739a")
+			(uuid "9fd68190-f2c4-4397-a38e-a08f3759c908")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -1764,7 +1764,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c75f0cef-1153-4c1c-9801-11e108a29199")
+			(uuid "d427791a-1ea8-42d0-b230-44ed86516bc8")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -1774,7 +1774,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cf62298c-d953-4ef6-bcf8-dca70cbe899c")
+			(uuid "c537638d-4f94-4897-b466-2caa0bf03414")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -1784,7 +1784,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a4f7ecb4-6e13-47a9-b4ee-9cff407d0690")
+			(uuid "f16e865e-9336-4c98-a9aa-c2ad70de1304")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -1794,7 +1794,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "47a220a1-be84-4cac-97e4-fd7e7f2cb65a")
+			(uuid "36eaa22a-735e-4ed4-8ec3-17ebf22a855a")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -1804,7 +1804,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a1b56f59-9d63-43d7-8e71-d91fa2b7fa71")
+			(uuid "2a5a9bae-fd89-4d97-833e-cbd0851fb277")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -1814,7 +1814,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "208237da-15f4-485e-8e4c-b9b9625c27c2")
+			(uuid "01bc0f5b-ceb1-4624-aacf-23d72fdb391d")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -1824,7 +1824,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad60e64f-b989-4aec-97b8-fb979397ddbe")
+			(uuid "73abf7dc-2055-4f7a-81b2-7f88f0443963")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -1834,7 +1834,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f16b93a9-4624-4cec-9458-b6d612da9921")
+			(uuid "f4f7e34c-2c41-47be-8b11-9cac4ebdd5f3")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -1845,7 +1845,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "771a2995-2c83-429d-81fd-07c88bd209dc")
+			(uuid "ee6b1005-56ea-44b3-9bb2-1374671af98d")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -1856,7 +1856,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "442b528b-196e-4d6b-9dbd-9321e40065c5")
+			(uuid "2cc2264d-adcf-4f0e-aa12-0f6a279f5f06")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1867,7 +1867,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "60294bc9-28d7-4c5e-9280-6505f22e98df")
+			(uuid "8705a06a-46bd-48b3-ac35-764ef1d470c5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -1927,7 +1927,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "5d4b5398-0f5c-4fae-ab59-aa92da64fc5c")
+			(uuid "b0bd5a72-339a-4828-b742-2afb9359ab6f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -2205,7 +2205,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV4"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "5e57763f-974b-4ba2-b598-6888bb8c4f0a")
 			(effects
@@ -2289,7 +2289,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "af44ab10-9fd3-4e83-9668-6b9a705bfdaf")
+			(uuid "8e0c0051-35b4-433c-937b-bc1fb502126f")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -2299,7 +2299,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cdf32dbc-75f0-4b1e-be29-d483e696eecb")
+			(uuid "656491a1-5c4a-41a9-8af3-0c333037e3ff")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -2309,7 +2309,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1037f36a-fc48-46a0-a30b-62b160ac426b")
+			(uuid "de8e8c2c-3ac8-4c9c-a6e5-3566327b719d")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -2319,7 +2319,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3de2b5d3-fcb2-47c2-9f1f-683afff90985")
+			(uuid "c02c650e-2ba8-422f-bfa9-8a82791f6221")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -2329,7 +2329,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1e07f642-a625-43ec-919a-3c986d4c9072")
+			(uuid "c34ef147-b8d8-41fb-b343-271d77ea2984")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -2339,7 +2339,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bdcd53b2-99ee-45c8-a2fe-aea9f895aac1")
+			(uuid "4360c920-d39a-46de-aaf6-0e2b9d78d51d")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -2349,7 +2349,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a1b290d5-b3ae-4cbd-9bc7-25cd72203e6d")
+			(uuid "298ff4b5-dcc5-4504-ac23-f19f99307987")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -2359,7 +2359,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c5b387f-9785-4c40-a949-b082401853af")
+			(uuid "c05ea843-bbec-48ad-a30f-12500223b747")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -2369,7 +2369,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "59a8bb6d-f170-41dd-9e62-ab8efd16ff06")
+			(uuid "a5858657-ea8d-45e3-88ee-061462589c24")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -2380,7 +2380,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "fb13a9d6-3609-4216-8aaf-e83d3a4a16dc")
+			(uuid "65cbdd8e-4937-468a-9c86-7a54e8035a5a")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -2391,7 +2391,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "6bb31c60-b408-43ca-8301-4a67c41e3f1f")
+			(uuid "d8314af5-4b19-40fd-ae10-afeebcde3af5")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2402,7 +2402,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "300fd9b0-b330-4371-bdaf-d932c05b8e31")
+			(uuid "e5e29b41-94b3-410d-867c-fd16d19d1091")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -2462,7 +2462,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "22df9536-d932-4f53-ba1f-953331a16c7d")
+			(uuid "d3141f48-e5f0-49af-9de6-8b22cff8f9bf")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -2484,7 +2484,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV3"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "f3995115-6e2b-4bbb-b291-dbc92f7f3140")
 			(effects
@@ -2568,7 +2568,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d5e0f102-ee08-42b9-8b63-4bb18e944172")
+			(uuid "1a81fcbc-5153-4bdc-8648-d647a7f075bd")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -2578,7 +2578,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d8ae525a-a07f-4c1a-a69b-345e833a9d61")
+			(uuid "1e0e7953-614c-42c8-8789-866af313a84f")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -2588,7 +2588,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "50d2fdd3-0888-40bc-acb4-e9364ddfcf42")
+			(uuid "e14e44b4-3f5d-4aa2-b082-40a94f5bc33f")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -2598,7 +2598,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2ecef472-82c4-4729-be1b-5d302017e3de")
+			(uuid "93a5c4f3-0e6d-495f-8d57-7e79fbb14612")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -2608,7 +2608,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aeadaa3e-c57c-445a-8a54-2badf759a7ff")
+			(uuid "04aff3b8-bdc8-4828-a79f-298dbae52a48")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -2618,7 +2618,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "65ef7691-2631-4acd-8c7b-9c046b23354b")
+			(uuid "3481892b-7080-488d-9032-9968bdf7b1bf")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -2628,7 +2628,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5fbe2fb7-b86b-4f60-8f64-0a42d4f74ccf")
+			(uuid "b1ec7a3f-4504-459d-94b6-6b5e10d826fe")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -2638,7 +2638,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cd43c50e-985b-4755-9ba5-30868bfd6ce5")
+			(uuid "f9c24872-4439-4992-9db9-b50ed3ed0391")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -2648,7 +2648,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d853f2c6-ae42-4fd4-bb7e-43dcbabad7e1")
+			(uuid "b244ee72-7731-4f30-b4ce-42cc7f8688a3")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -2659,7 +2659,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "e74fd55d-111b-4dd0-a545-483c73913229")
+			(uuid "6177e1d1-b1da-44be-871c-26c0152133a1")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -2670,7 +2670,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "03ac131c-c5c9-43ee-9679-09db3d655530")
+			(uuid "6ba4bbba-b6f0-4e11-8cb1-2a3e6a717477")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2681,7 +2681,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c492aede-bf33-46f5-b000-a20aea6c4fb5")
+			(uuid "8266ee14-6ea0-4ad5-b311-23686636ee27")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -2741,7 +2741,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "7c86a894-fd27-46ee-904a-056ec4df2c5a")
+			(uuid "32e9e292-aa3c-4700-9972-514d1280978e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -2763,7 +2763,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV1"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "f79ef752-467d-492b-9f78-56db7afab0c0")
 			(effects
@@ -2847,7 +2847,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "32042ded-a612-4df0-9fd3-f61113adad6a")
+			(uuid "60dc6296-d54d-47e1-ab25-edaf5afde215")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -2857,7 +2857,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "266fb11b-0426-4daa-9108-a012e4d0462b")
+			(uuid "d3c78738-5567-43f8-bdc0-fb956f6bae85")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -2867,7 +2867,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3c4a9f82-6972-4c1a-bf8d-991f36970b08")
+			(uuid "c207a78d-83d4-4b74-b849-34f44b143607")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -2877,7 +2877,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "334a893f-92dd-4486-907c-734a2a830168")
+			(uuid "19fe65e2-55e5-4976-a7d8-96ff6c887837")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -2887,7 +2887,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e119871a-25e5-4b56-9c9c-f616442a8f38")
+			(uuid "44b9f4b8-5dbf-4a6f-ac37-d02bc7fe9939")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -2897,7 +2897,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dda6659a-d822-4a4a-bf17-224501c4e4bd")
+			(uuid "a45145c4-6e17-4b6a-a139-bbe4da57f4aa")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -2907,7 +2907,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b56778f-274f-422d-b500-6b70c44a3a93")
+			(uuid "30ad1fc9-2988-4e3e-8d91-aaf3d47576f3")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -2917,7 +2917,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cb922ccc-6a3e-4914-8988-df18a9335026")
+			(uuid "05dab9ca-818b-4c1e-b3b7-d7e00fb9b288")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -2927,7 +2927,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "37db395f-b48b-4dc3-ab09-523c82ea3c1c")
+			(uuid "6b675289-b90a-46c7-a5f8-f54a18f5fe9f")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -2938,7 +2938,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "0ebb8325-8828-4601-ac51-85b9830ee7ff")
+			(uuid "c06ef5dd-b1d8-49b1-bf76-5490d26f0f11")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -2949,7 +2949,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "22644bd4-e47f-4c89-83eb-40b8f6f18aec")
+			(uuid "8c7c58e4-586e-4a64-bd51-f733d4ad01b6")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2960,7 +2960,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "3055e0d8-3e24-463c-8271-85b3a5120f09")
+			(uuid "3fd4422a-a584-44eb-8eb1-4479a0a1a0d7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -3020,7 +3020,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "65c918ba-7dff-4e70-94b7-2c3ab1008ee7")
+			(uuid "4a86ab03-7cbc-42c2-887f-fe4d0e18da20")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -3042,7 +3042,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV14"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "ba066b66-4539-41a7-ab0e-2e85e3e4ac2b")
 			(effects
@@ -3126,7 +3126,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fad55165-430f-4605-b314-47ffd1e7285b")
+			(uuid "f4dd5c27-985d-4561-86d5-5b3eee7df507")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -3136,7 +3136,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "66aadfb9-3445-4580-9e7e-9f97730161fa")
+			(uuid "8de674c8-8c16-4a5a-8b66-927239f6ce44")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -3146,7 +3146,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5c66280b-a35c-4f0a-ab3f-e7a3b105f52e")
+			(uuid "45e54a8d-7ded-4bba-b32c-083a5b8c1916")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -3156,7 +3156,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8fe6dc5c-5039-4bc0-9c6b-be87f5d0ea41")
+			(uuid "abb51e75-40d9-4502-b842-220ca3ab4124")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -3166,7 +3166,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b2ceef1-ef6d-47b6-8871-241dda657efc")
+			(uuid "0ced9065-59c8-44a8-8f8b-68758329ac93")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -3176,7 +3176,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "25e300e5-0591-4332-84d5-ad808191c945")
+			(uuid "4f8265db-16dd-4233-b900-c57f667df89e")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -3186,7 +3186,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "26cf1a7a-7bc1-46e5-8442-cddc5638708a")
+			(uuid "42baa850-85cf-4d03-838a-5c1ea1c9c3fd")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -3196,7 +3196,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "28aa5514-981a-434a-82f0-e6a8c9db98ba")
+			(uuid "fc9b0382-1141-43d0-8637-2ac4c6a94459")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -3206,7 +3206,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "91d6c04b-7d9e-4388-91e7-d516e22a3928")
+			(uuid "d3c0acb9-dc84-4242-80db-6af1f0898ba0")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -3217,7 +3217,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "3de5c7a8-0c3d-4be6-8cf7-1e9c28e48e29")
+			(uuid "7d76df39-f75a-48df-99f4-31c0f8c85743")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -3228,7 +3228,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "277d398f-f5b3-4262-94b8-ab7b10653682")
+			(uuid "d1d5f956-d84c-40a2-a332-70ca3578fef7")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3239,7 +3239,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "a45a91a6-9ec2-4bd1-a5c2-35768a272ac3")
+			(uuid "425d6843-d204-409a-9554-3ba5d7dd6fc6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -3299,7 +3299,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "e6293a4f-c5fc-4e1f-8785-fa4d3b36871b")
+			(uuid "d9de0b52-8c5f-4c45-affd-2a27b81e0da1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -3449,7 +3449,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV15"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "df023ade-f9e9-4717-9d11-485d9670445a")
 			(effects
@@ -3533,7 +3533,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "10fbe471-0c43-4911-a1db-64ff23721fd0")
+			(uuid "2daea98c-4c3d-4bf6-bb5d-ca0f82fb7311")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -3543,7 +3543,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c76fb903-22e2-459b-b0c3-b8ddf3ccc567")
+			(uuid "fdd6abb0-6527-4401-ac62-1d878c4b9fd9")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -3553,7 +3553,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "50e1144d-66da-4539-9af8-10e015a6a61e")
+			(uuid "c5b09e76-2cb4-42c6-9c70-337952661e26")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -3563,7 +3563,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9543ead8-a59f-419d-8d02-24455b5b5740")
+			(uuid "4180632d-d266-4202-bc18-56ff627e7265")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -3573,7 +3573,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dbb04ea7-782d-4a30-86cb-8a8f24704b73")
+			(uuid "0b3641a8-a918-4333-9b7c-2b911164265d")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -3583,7 +3583,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0bd02c3b-df74-4373-8f22-3ff2bee1ae2c")
+			(uuid "af34ce58-4005-4eac-b00a-9f84d718eb16")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -3593,7 +3593,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fed2da83-aed4-48e2-9227-9134bcef7645")
+			(uuid "9d177395-f00a-45ba-91d6-100d388fbb90")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -3603,7 +3603,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "116a5a46-d431-49d6-b403-a10f3c420633")
+			(uuid "19a4375c-21f1-4350-b7a2-11b82bc3695b")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -3613,7 +3613,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2bfb7e04-05fc-438c-9638-a5761765c3aa")
+			(uuid "6c1accf3-9e20-46a8-b803-5ccf6ee6feab")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -3624,7 +3624,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "cb112100-d043-48e0-9e84-2b74305a9ea5")
+			(uuid "75849244-1175-4287-bd7b-4b7af3f1b8fd")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -3635,7 +3635,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1a6bdd1f-4df8-42ee-a463-f5d1ec8f8e9f")
+			(uuid "e24ac4ed-09f1-4867-97d5-13bf9b32f1f1")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3646,7 +3646,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "251ed07c-2e6b-4297-a539-298783241ff1")
+			(uuid "ac03f5e3-2bfc-4fff-b7db-d33ecf4fdeec")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -3706,7 +3706,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "318e6146-c523-4edf-9d8a-aaf6a8ea7c88")
+			(uuid "41ecb718-09fc-436e-8991-2bea8e4c6f16")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -3728,7 +3728,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV10"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "d8e74864-4ad7-4943-850a-529f050cce6b")
 			(effects
@@ -3812,7 +3812,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bec1220f-8f5a-497e-baf8-b6c68cb0d598")
+			(uuid "ed0933fd-4f73-486e-b3c8-681ce4bcc1d9")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -3822,7 +3822,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "617f0be4-1f72-411a-b56c-5b83bdbcb7aa")
+			(uuid "50460ebd-996e-4f26-99bb-5825c46b86c0")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -3832,7 +3832,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "07bff300-3fc0-4ebe-a902-9fffd019691c")
+			(uuid "012794f5-ab8a-4560-814e-3011a3ff65d3")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -3842,7 +3842,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ee84f6e2-958b-4cf3-8dbf-19eebbcf464e")
+			(uuid "15762f2b-5893-487e-8b64-30f29f6ff25e")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -3852,7 +3852,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d197a3b7-194b-4135-93b0-25362c7bc21c")
+			(uuid "d5544dfe-4fc5-462e-8885-f654c4d38b8a")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -3862,7 +3862,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5b7dce1c-c226-45ef-889a-823c9c480e1a")
+			(uuid "f5280fcb-c747-407b-8eb4-82151201122b")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -3872,7 +3872,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "db8ae70d-3f47-46af-95c0-d261d5981773")
+			(uuid "6bffaf83-9b6c-42f3-a431-e2a45b894083")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -3882,7 +3882,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7fcbf3f6-57d6-4aac-af82-303e69ee3b02")
+			(uuid "f939bb81-c5a0-4e0a-8af4-867582620017")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -3892,7 +3892,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8baa3e84-b4a6-41cb-8830-e67b08e69df8")
+			(uuid "bddbd9c2-de24-45f5-a2b4-6a878b040a83")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -3903,7 +3903,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "a4667a13-bb4f-4b2c-aa23-563ba682c08b")
+			(uuid "2ff599ac-8358-4122-9976-d248234fcc69")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -3914,7 +3914,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "5e2fdb5a-8d1e-441f-a763-eb82b02bcd15")
+			(uuid "a2424ada-4c31-499c-99a9-b57e8a944271")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3925,7 +3925,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "7607b97d-3f29-44e2-9657-2296f6885e4c")
+			(uuid "03d4d33b-5e50-40e8-a7d1-5eae9833091b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -3985,7 +3985,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "f862e637-1b3f-40be-85d8-ef4b4347bedc")
+			(uuid "191d422c-4e55-46d2-9b1b-283f701e5325")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -4007,7 +4007,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV12"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "ced6d3e7-7f01-4b91-99b6-ace9bcf13410")
 			(effects
@@ -4091,7 +4091,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c688305e-c780-4e74-8b40-00ce0df72bf0")
+			(uuid "566afa89-d287-48df-bffb-9dfe9e5b60de")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -4101,7 +4101,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cd1df196-cbf2-4bf1-b712-6d7fefcbce2f")
+			(uuid "cbb05a7d-91a6-42b8-be07-aeef01bf47fa")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -4111,7 +4111,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "54050361-a500-4979-ad31-ec133b8839ee")
+			(uuid "17047601-d53f-47a5-a230-ee86b6227a57")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -4121,7 +4121,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6393f15e-e9b9-4dba-bff1-e255219f52f2")
+			(uuid "d174cf83-3371-4a11-ade2-6a1184e21328")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -4131,7 +4131,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4ca06d28-9e3a-4464-a712-9d32aba5341a")
+			(uuid "abf1b67e-014f-4f40-8919-8263f8ae3af5")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -4141,7 +4141,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ae4d2f1a-a623-4fb6-bd31-ea32af00aa9f")
+			(uuid "fb9b0b60-c4d5-4b63-95ed-35fb9363385e")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -4151,7 +4151,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0dded643-88d3-4b0c-9151-f3c84e21a35a")
+			(uuid "e42de938-d259-4ad7-b95a-16a86a005cd9")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -4161,7 +4161,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "03175b09-3e23-461c-8aa4-6fd92394c7c0")
+			(uuid "3b54aadb-d647-418b-a98d-63d321092335")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -4171,7 +4171,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ba79a2e9-f88f-4c00-87d6-4514e8574026")
+			(uuid "477c494a-a2d3-488d-84eb-3ecf9568e95c")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -4182,7 +4182,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "bf9f66e7-828a-4aaf-a966-ec2190d7c973")
+			(uuid "c7178e04-1630-44e2-a35d-a92309154972")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -4193,7 +4193,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0170c8d4-cd43-4b2b-a81f-e1a16b0c6643")
+			(uuid "4d83bb55-1e07-43dc-a324-85d5f7eff9c7")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4204,7 +4204,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e270ef50-b311-4b94-8f4c-edfab18cf038")
+			(uuid "4e407c3d-dff4-49a1-a1c6-48a303abfc18")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -4264,7 +4264,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "cfddfe68-7ad8-44ff-bdf6-6f4408a2c4f6")
+			(uuid "ebd87a44-0640-423c-beee-de55b645d0e7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -4286,7 +4286,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV13"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "baec1a2d-cdaa-449e-88b0-df0ca9fd32ff")
 			(effects
@@ -4370,7 +4370,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "23fdad36-702d-4cc4-a398-6e297cdf5cc6")
+			(uuid "7b6195ac-01b9-4f72-ae23-bc3c28d17bf6")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -4380,7 +4380,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "86e40538-4700-44ee-a102-55c7e5429133")
+			(uuid "d51de715-7e05-4bc8-a998-056fc80710fa")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -4390,7 +4390,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "caff9b95-a4d1-4b1c-8089-ad247b7a2b9d")
+			(uuid "a09adfd0-06f1-48c0-a6bf-91132249db81")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -4400,7 +4400,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "52dea9dc-cf71-40a3-8839-a8fb010c91bc")
+			(uuid "e784d762-4a67-4b67-bce8-6f8b87b3e887")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -4410,7 +4410,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9a2fd023-1793-412a-b49e-7a0d7516306c")
+			(uuid "d03582b3-4c04-4742-b287-64eb327c3fb5")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -4420,7 +4420,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "deb61b40-ef3e-4a05-afb6-92199aa06a40")
+			(uuid "30c299f7-0a1b-42dc-8cab-54b58ca028c3")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -4430,7 +4430,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "461424fc-af76-4157-a9e1-001d2cd59e9c")
+			(uuid "4167f912-db73-4a91-a6bd-fdfbd5847eec")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -4440,7 +4440,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "496c2a2b-97b6-46d0-8fcb-55b830c36cdf")
+			(uuid "68f606eb-e0d5-4754-9020-9be6f64e7682")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -4450,7 +4450,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "be7b7c76-b644-4f12-86d0-d1001ef4830f")
+			(uuid "065e26a7-1b6d-495f-9713-2954b84f7759")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -4461,7 +4461,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "3cf36b8a-ae1e-4ee9-941f-ae34528e1ac9")
+			(uuid "c9ba9a64-7e93-4f2c-8c87-9b6ae5248774")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -4472,7 +4472,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "20466b7a-38a6-4592-8e9e-9e215166d7a2")
+			(uuid "704f843b-cfc2-47a9-ae53-4a892662507e")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4483,7 +4483,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "86211a8e-196d-4d01-b2a2-4abd10760ae3")
+			(uuid "b7e6ae39-4f88-4c67-b0f4-6bb116b5d8c2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -4543,7 +4543,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "40bf1c89-3279-46a8-90dc-026a775d4350")
+			(uuid "056d4072-53a8-4858-9091-6e42c7da2d4e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -4565,7 +4565,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV8"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "8c35c698-f8bb-4b97-8d7c-9ca0d65e5fa9")
 			(effects
@@ -4649,7 +4649,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b39607e8-cd23-4953-a15a-1727d821aff8")
+			(uuid "89334f01-3c98-4f23-ae99-d8fb1967a144")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -4659,7 +4659,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b29be379-c5b6-48bf-b68b-a464ac1234e5")
+			(uuid "01e17832-f100-48fc-855a-4780bd37d134")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -4669,7 +4669,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "827d8395-0744-43bf-b1c7-9ea879df9cf5")
+			(uuid "fd0ee99c-3cc9-4d88-82ed-1379400874b9")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -4679,7 +4679,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "585cd80d-2008-4e0b-b14b-a2bbd0505d77")
+			(uuid "21817369-dc06-4ecd-a5d5-b0b7006fe41b")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -4689,7 +4689,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a4e22a4a-d0d9-46d3-950f-e5a41c88c31b")
+			(uuid "be337439-56f0-440f-85b7-481013c0cc7b")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -4699,7 +4699,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "33960629-fda3-4574-844b-9d49700f2406")
+			(uuid "20ac96b9-22b5-4c0f-9bfb-098b195eb925")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -4709,7 +4709,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3780633f-aef3-43aa-9f9d-9fcc1ed1f1bd")
+			(uuid "dfccc71a-b9e5-42ba-9bf8-501444b18170")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -4719,7 +4719,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b60df6fd-a16e-471e-a135-967b5241f543")
+			(uuid "65f4a567-0042-42f0-94cd-85e456e90212")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -4729,7 +4729,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4930f3cc-a32b-4f4e-8d2e-81021967b41e")
+			(uuid "19320ee8-35c5-4203-946e-1473ba022384")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -4740,7 +4740,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "7032734e-2b60-4d43-ac59-a41146612f8f")
+			(uuid "5fcc72d9-f47c-4f0e-9ed7-f3e01d1d6da8")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -4751,7 +4751,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d2c4d5ec-6513-4769-adfa-7a5d88e94de9")
+			(uuid "8b47b24e-e227-4cbe-b8a1-d38ec20dc273")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4762,7 +4762,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "0701a410-61c9-4427-aacd-234f275c03e9")
+			(uuid "7b810643-d33f-4363-bd4b-ae8cff232b82")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -4822,7 +4822,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "47791480-4e74-464e-8600-f847c82bc105")
+			(uuid "fe1da3b4-6205-4d71-8da4-d893fea29d4b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -4844,7 +4844,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV16"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "8bb148f6-a7b3-4b6f-8060-25d8b664db01")
 			(effects
@@ -4928,7 +4928,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c5506a03-06a2-4089-8628-4d393ce0d2ac")
+			(uuid "bfe3028e-1d6f-4f04-8a59-dfa4d9c59cbd")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -4938,7 +4938,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8d06333c-776e-46e4-a4ad-02eb3e8936c7")
+			(uuid "a5dcec67-5c42-4de2-b70d-4c67c26af034")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -4948,7 +4948,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "724f18a3-15af-43b0-8073-80ec385e848a")
+			(uuid "92ddfe0c-5a57-4cff-99b1-b9eba5118d5c")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -4958,7 +4958,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d6ca3ef7-e24b-4e31-aeb3-a077f8a0e9c9")
+			(uuid "4aa51da7-e6d9-4567-bfea-8aa09755890e")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -4968,7 +4968,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1d7820c-1d39-4ad5-add7-e18936d05cf7")
+			(uuid "8666287e-c993-45c3-bf85-caa309a10802")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -4978,7 +4978,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6d86601f-3d83-4587-bd9e-62faf218bd06")
+			(uuid "eb864588-ff92-44a9-87b9-a636dbccbac5")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -4988,7 +4988,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "69cc36ca-8391-4bbc-9f23-81bca89b5ace")
+			(uuid "9951ffa0-19a3-499a-a546-1e0a425d45cc")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -4998,7 +4998,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f5d07294-7da8-4cfe-a019-00d891f32cc3")
+			(uuid "f2500529-f472-472a-a856-c8f106d5cde9")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -5008,7 +5008,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c7b78b1f-7230-4c9a-97ed-317893f69ce9")
+			(uuid "1f9c4174-71e7-4bbd-a193-9fd059f35a35")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -5019,7 +5019,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "16da047e-2fdf-4528-88ca-3cc5983ea5e4")
+			(uuid "7ac38c1c-4fed-40cf-b940-dd571ba8308a")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -5030,7 +5030,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "378cea74-45fc-4a9e-b5d2-1c5e5dbf6971")
+			(uuid "e274d666-e91c-4986-94ac-2c7bda366f6e")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5041,7 +5041,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "2ee091c1-832f-4ea3-89fb-6040d1d5bb24")
+			(uuid "9ba5ec21-53ee-4b03-af41-bc1befcfa679")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -5101,7 +5101,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "7283c937-f460-4185-8114-7c8e20377852")
+			(uuid "64ea58a4-afcf-4662-902b-4171f5f91b24")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"
@@ -5123,7 +5123,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV9"
-			(at -4 0 0)
+			(at 7.2 0 0)
 			(layer "F.SilkS")
 			(uuid "88dd4180-95ef-468e-9652-2987a6563a95")
 			(effects
@@ -5207,7 +5207,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "42433e18-16fa-4f4e-be38-e5dc36a12d5f")
+			(uuid "003e21e5-7984-43e5-a672-8fe0a2b081f5")
 		)
 		(fp_line
 			(start -2.365 4.96)
@@ -5217,7 +5217,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "36d67e71-3a90-478d-ba78-5d1267116673")
+			(uuid "db5c1773-5587-4d88-9cad-3c7d5c4484c6")
 		)
 		(fp_line
 			(start 6.11 4.96)
@@ -5227,7 +5227,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1675d320-b7a0-48be-9c61-faadb54647ce")
+			(uuid "ac490990-a295-4ded-ad15-c0dbd4debec4")
 		)
 		(fp_line
 			(start -6.11 1.804)
@@ -5237,7 +5237,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c4311b7e-efaf-4876-85de-8c9b4f1e6d1b")
+			(uuid "34e05167-991a-4907-ac1b-b5acb5e175a9")
 		)
 		(fp_line
 			(start -6.11 -0.696)
@@ -5247,7 +5247,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "43fab5ac-944b-4174-a9df-e37d7195e1a4")
+			(uuid "7f20f024-8a9e-450c-ba8b-cc5c8874179e")
 		)
 		(fp_line
 			(start -6.11 -3.196)
@@ -5257,7 +5257,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2a573675-cbac-4c20-b880-12fce13fb1f6")
+			(uuid "f5453b1b-4f56-49dc-bfe4-ca90d6905e67")
 		)
 		(fp_line
 			(start -6.11 -4.96)
@@ -5267,7 +5267,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d6f6f5ae-4ef6-4e9b-acc1-9a1616f449fd")
+			(uuid "5c129f4c-ff08-4e07-b66a-50b2b0653385")
 		)
 		(fp_line
 			(start 2.365 -4.96)
@@ -5277,7 +5277,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4800638e-4485-4261-9d71-0932c796882e")
+			(uuid "4aacbb28-5a5b-4236-89ac-24b66a19d3d3")
 		)
 		(fp_line
 			(start 6.11 -4.96)
@@ -5287,7 +5287,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "52f22c1a-caba-4f32-a501-ae21cc264805")
+			(uuid "a044f1c2-b7b7-4868-a98d-d90d0734b80d")
 		)
 		(fp_rect
 			(start -8.15 -6.86)
@@ -5298,7 +5298,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "3880ca65-60c1-4349-b1e2-1dcccc6cb371")
+			(uuid "9b64d7b9-dbc2-4420-9774-97a30084634c")
 		)
 		(fp_rect
 			(start -6 -4.85)
@@ -5309,7 +5309,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "bb07bd7a-2e95-4b8d-b2a5-023cad9154b5")
+			(uuid "21ad0986-caf1-4d1b-aa75-c8d79ce115e4")
 		)
 		(fp_circle
 			(center 0 0)
@@ -5320,7 +5320,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "52e5f73e-ae3f-41a1-9d40-5121c9dc0825")
+			(uuid "dcf24fb9-58c0-40c4-83ca-da207b0cea3d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -8 270)
@@ -5380,7 +5380,7 @@
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "6811c983-7755-40ed-968d-52ca9c7a935b")
+			(uuid "d6a088cb-1763-4295-8c31-557bfb84b034")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_PTV09A-1_Single_Vertical.step"

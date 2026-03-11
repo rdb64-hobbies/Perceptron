@@ -6,7 +6,7 @@
 	(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 	(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 	(property "Reference" "REF**"
-		(at -4 0 90)
+		(at 7.2 0 90)
 		(layer "F.SilkS")
 		(uuid "29aae3e6-8dcd-40a8-bd09-54683019b8e4")
 		(effects
