@@ -27,6 +27,8 @@ Note that it automatically detects the number of layers and the dimensions. Both
 
 You'll see a whole lot of additional specifications and options: for example, base material, quantity, and much more. There's no need to change any of these values unless you want to up the quantity and order more than 5 boards.
 
+Above "SAVE TO CART" you might see an option for 24-hour build time at a modest additional cost. You can select that if you want. Note that these photos show different build-time options, because they were taken during holidays in China.
+
 Now click "SAVE TO CART".
 
 And then repeat for the other board.
