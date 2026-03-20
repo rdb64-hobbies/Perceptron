@@ -64,7 +64,7 @@ Now, go to the fabricator's website, [JLCPCB](https://jlcpcb.com/) or whatever o
 
 [Here](JLCPCB.md) is the step-by-step with screenshots for JLCPCB.
 
-They'll probably take a little over a week to arrive. Rejoice!
+They'll probably take about a week to arrive. Rejoice!
 
 ![PCBs](assets/pcbs.jpg)
 

@@ -1,6 +1,6 @@
 # Perceptron
 
-This repository contains the build guide, PCB designs, circuit schematics, PCB manufacturing files (Gerbers), bill of materials (BoM), and 3D printable frame designs, everything you need to build your own Perceptron, just like the one described in my video tutorial (link coming soon). It was inspired by this [video tutorial](https://www.youtube.com/watch?v=l-9ALe3U-Fg) by Welch Labs. I hope you'll check out both videos.
+This repository contains the build guide, PCB designs, circuit schematics, PCB manufacturing files (Gerbers), bill of materials (BoM), and 3D printable frame designs, everything you need to build your own Perceptron, just like the one described in my [video tutorial](https://www.youtube.com/watch?v=PSqP73T0g_M). It was inspired by this [video tutorial](https://www.youtube.com/watch?v=l-9ALe3U-Fg) by Welch Labs. I hope you'll check out both videos.
 
 ![Perceptron](assets/working.jpg)
 
