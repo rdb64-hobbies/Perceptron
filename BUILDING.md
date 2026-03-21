@@ -230,6 +230,8 @@ The 3D print files, in 3mf format, are all in the [Frames](Frames) directory, an
 
 In this directory you'll also find the soldering jig that you need to mount the LEDs at the right height above the Input board, as described in the "Soldering the components to the PCBs" section above.
 
+The 3mf files come directly from Fusion 360, so they contain only model information, no printer or slicer settings. These models are very simple and can be printed with pretty much any material and any slicer settings with no need for supports. Just make sure that the frames and jig are printed with the flat side (top side) facing down on the print bed.
+
 The file names should be pretty self-explanatory, but here's a list:
 
 - [input_board_solder_jig.3mf](Frames/input_board_solder_jig.3mf) - the soldering jig to mount the LEDs at the right height above the board

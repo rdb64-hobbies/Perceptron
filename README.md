@@ -30,4 +30,4 @@ If you just want the Gerber files to order from a PCB manufacturer, you can find
 
 ## 3D printable frames
 
-The frames were designed using Fusion 360 (https://www.autodesk.com/products/fusion-360/), and you'll find the source files in the `Frames` directory. The complete Fusion 360 archive file there along with all of the 3D printable 3mf files.
+The frames were designed using Fusion 360 (https://www.autodesk.com/products/fusion-360/), and you'll find the source files in the `Frames` directory. The complete Fusion 360 archive file there along with all of the 3D printable 3mf files. The 3mf files come directly from Fusion 360, so they contain only model information, no printer or slicer settings.
