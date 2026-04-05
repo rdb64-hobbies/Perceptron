@@ -19,7 +19,7 @@ With a 3D printer, you can print the frames and make it look like this:
 
 ![Perceptron built with frame](assets/working.jpg)
 
-If you don't have a 3D printer but still at least want a front plate for the weight knobs, there are some simple things you can do with sheet metal. Either way, it will work the same.
+Note that the knobs in the above photos are bought (link below in the "Optional components" section), not 3D printed.
 
 If you want to skip this build guide and just jump right in with the schematics, the PCB Gerbers, the BoM, and the 3D-print files, then here they are:
 
@@ -307,7 +307,11 @@ Once everything is printed, use M3x6 round head screws to secure the board to th
 
 ## Knobs
 
-You'll need 17 of these, but you can print them all at once. Just replicate, arrange on the print bed, and go. And if you don't like the knobs that I designed, you'll find many more options online at [printables.com](https://www.printables.com/) or [makerworld.com](https://www.makerworld.com/). Just make sure they're sized to fit you potentiometers.
+You'll need 17 of these, but you can print them all at once. Just replicate, arrange on the print bed, and go.
+
+![17 potentiometer knobs 3D printed](assets/knobs_printed.jpg)
+
+And if you don't like the knobs that I designed, you'll find many more options online at [printables.com](https://www.printables.com/) or [makerworld.com](https://www.makerworld.com/). Just make sure they're sized to fit you potentiometers.
 
 ## Final assembly
 
