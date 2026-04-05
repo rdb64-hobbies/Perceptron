@@ -28,6 +28,6 @@ The PCBs were designed using KiCad (https://www.kicad.org/), and you'll find the
 
 If you just want the Gerber files to order from a PCB manufacturer, you can find them also in the `PCBs` directory. Each one is in its own zip archive file.
 
-## 3D printable frames
+## 3D printable frames and knobs
 
-The frames were designed using Fusion 360 (https://www.autodesk.com/products/fusion-360/), and you'll find the source files in the `Frames` directory. The complete Fusion 360 archive file there along with all of the 3D printable 3mf files. The 3mf files come directly from Fusion 360, so they contain only model information, no printer or slicer settings.
+The frames and knobs were designed using Fusion 360 (https://www.autodesk.com/products/fusion-360/), and you'll find everything in the `Frames` directory. The complete Fusion 360 archive file is there along with all of the 3D printable 3mf files. The 3mf files come directly from Fusion 360, so they contain only model information, no printer or slicer settings.
