@@ -1562,82 +1562,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PerceptronAdderSymbols:Potentiometer_Knob"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(property "Reference" "K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Potentiometer_Knob_1_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PerceptronAdderSymbols:Ribbon_Cable"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1775,23 +1699,13 @@
 	)
 	(text "Ribbon Cable"
 		(exclude_from_sim no)
-		(at 33.782 180.594 0)
+		(at 32.512 185.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "57891965-a3ca-459d-be3d-ddfea9701638")
-	)
-	(text "Potentiometer Knobs"
-		(exclude_from_sim no)
-		(at 72.644 191.262 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8e69d352-ec56-459d-8ff7-be4f9fb96fb0")
 	)
 	(junction
 		(at 170.18 95.25)
@@ -4175,170 +4089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 68.58 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19865b39-96eb-4f87-8665-ec7e95c30a92")
-		(property "Reference" "K2"
-			(at 68.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 68.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 68.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 68.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 68.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 72.39 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fe46011-c24c-4a46-8553-10a680727898")
-		(property "Reference" "K17"
-			(at 72.39 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 72.39 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 72.39 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 72.39 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 72.39 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 137.16 128.27 90)
 		(unit 1)
@@ -4513,88 +4263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 83.82 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b628bd1-944e-4658-9c82-4f5803528f76")
-		(property "Reference" "K16"
-			(at 83.82 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 83.82 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 83.82 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 83.82 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 83.82 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 38.1 83.82 0)
 		(unit 1)
@@ -4676,334 +4344,6 @@
 			(project "PerceptronAdder"
 				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 76.2 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f40abc9-06fa-4a80-a861-c8e98479d1bc")
-		(property "Reference" "K3"
-			(at 76.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 76.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 76.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 76.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 76.2 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 60.96 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "324f3da5-e55c-4508-a71b-d925a5496df9")
-		(property "Reference" "K1"
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 83.82 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34fcc439-3f1e-4aff-8cee-3b47e122d7c9")
-		(property "Reference" "K8"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 83.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 76.2 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38e12a6b-10b4-49ae-9dc1-b725386c47ca")
-		(property "Reference" "K15"
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K15")
 					(unit 1)
 				)
 			)
@@ -5796,7 +5136,7 @@
 	)
 	(symbol
 		(lib_id "PerceptronAdderSymbols:Ribbon_Cable")
-		(at 33.02 172.72 0)
+		(at 31.75 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5805,7 +5145,7 @@
 		(fields_autoplaced yes)
 		(uuid "60dc7295-6d62-40e8-b8f3-d67d8bc46966")
 		(property "Reference" "RC1"
-			(at 33.02 172.72 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5154,7 @@
 			)
 		)
 		(property "Value" "20P"
-			(at 39.37 172.7199 0)
+			(at 38.1 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +5164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 172.72 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +5173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 172.72 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +5182,7 @@
 			)
 		)
 		(property "Description" "2x10 2.54mm ribbon cable"
-			(at 33.02 172.72 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5191,7 @@
 			)
 		)
 		(property "Link" "https://www.amazon.com/gp/product/B01MT921QT/"
-			(at 33.02 172.72 0)
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,8 +5199,8 @@
 				(hide yes)
 			)
 		)
-		(property "Alt Link" ""
-			(at 33.02 172.72 0)
+		(property "Alt Link" "https://www.digikey.com/en/products/detail/assmann-wsw-components/H3CCH-2006G/1218561"
+			(at 31.75 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,88 +6671,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 68.58 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8531a3e1-d3b8-4779-9dd9-3659d1c1989c")
-		(property "Reference" "K14"
-			(at 68.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 68.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 68.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 68.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 68.58 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 60.96 83.82 0)
 		(unit 1)
@@ -7843,88 +7101,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 76.2 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "961ecd82-52f1-4b51-85ee-0121a8842064")
-		(property "Reference" "K11"
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 76.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 223.52 83.82 0)
 		(unit 1)
@@ -8279,88 +7455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 68.58 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a98677b6-d8d5-4e44-9c26-cedbb4d7306b")
-		(property "Reference" "K10"
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 106.68 83.82 0)
 		(unit 1)
@@ -8535,88 +7629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 83.82 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b147ce41-9b15-414b-a263-8bd76284cff8")
-		(property "Reference" "K12"
-			(at 83.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 83.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 83.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 83.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 83.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 100.33 190.5 0)
 		(unit 1)
@@ -8782,88 +7794,6 @@
 			(project "PerceptronAdder"
 				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
 					(reference "RV17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 68.58 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4bc2d40-2bd1-473f-afca-07b6718c8845")
-		(property "Reference" "K6"
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -9569,88 +8499,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 60.96 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da386e58-1175-4cec-9450-1f85daa21d05")
-		(property "Reference" "K9"
-			(at 60.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 60.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 60.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 60.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 60.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 271.78 83.82 0)
 		(unit 1)
@@ -9825,88 +8673,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 60.96 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e257e79f-06d1-4953-8609-1c222b1ba999")
-		(property "Reference" "K5"
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 68.58 83.82 0)
 		(unit 1)
@@ -9988,88 +8754,6 @@
 			(project "PerceptronAdder"
 				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 60.96 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea63414a-6537-49be-8221-5f6d1efc919d")
-		(property "Reference" "K13"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K13")
 					(unit 1)
 				)
 			)
@@ -10339,88 +9023,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 76.2 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f68d286e-e3c9-466f-990f-dfd5ad65db29")
-		(property "Reference" "K7"
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 154.94 83.82 0)
 		(unit 1)
@@ -10502,88 +9104,6 @@
 			(project "PerceptronAdder"
 				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PerceptronAdderSymbols:Potentiometer_Knob")
-		(at 83.82 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fedc9e84-588c-4fed-8e42-019eb5ceffdc")
-		(property "Reference" "K4"
-			(at 83.82 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "6mm"
-			(at 83.82 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6mm potentiometer knob"
-			(at 83.82 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.amazon.com/gp/product/B099F4X4Q9/"
-			(at 83.82 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt Link" "https://www.amazon.com/gp/product/B094YZWRYL/"
-			(at 83.82 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "PerceptronAdder"
-				(path "/785d49de-3adc-4dd5-a84b-a7e12fb39fa2"
-					(reference "K4")
 					(unit 1)
 				)
 			)
