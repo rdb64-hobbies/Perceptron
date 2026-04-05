@@ -9,7 +9,7 @@ The outline of the build process is as follows:
 2. Obtain all of the other components.
 3. Solder the components to the PCBs.
 4. Final assembly.
-5. (Optional) Build frames.
+5. (Optional) Build frames and knobs.
 
 The last step is optional for those who want to make it look nice. You'll need a 3D printer. Without this step, your Perceptron will look something like this:
 
@@ -124,7 +124,7 @@ But if you're using a meter from the BoM or a Simpson like the one I used in the
 
 ## Other components
 
-Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. The potentiometers from Digikey (the `Alt Link`) are a bit more expensive, but they have a center detent which I like. For the potentiometer knobs, just make sure they fit your potentiometers. For the LEDs, any colors except blue should work fine. Just make sure that the lead spacing is 2.54mm. For the resistors, any power rating and tolerance will be fine, and there are tons of choices. Just make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-24 guage.
+Feel free to use components other than those linked in the BoM. For the toggle switches, just make sure they're DPDT (double-pole double-throw), and that the pin configuration matches. For the potentiometers, just make sure they're 10k ohm and that the pin configuration matches. The potentiometers from Digikey (the `Alt Link`) are a bit more expensive, but they have a center detent which I like. For the LEDs, any colors except blue should work fine. Just make sure that the lead spacing is 2.54mm. For the resistors, any power rating and tolerance will be fine, and there are tons of choices. Just make sure to match the resistance values (68 ohms and 10k ohms), and make sure they're no longer than 6.5mm. For the wire, pretty much anything will work, but I recommended stranded wire at around 22-24 guage.
 
 ## Optional components
 
@@ -136,6 +136,10 @@ For the wire connections to the meter, you can just wind stripped wire around th
 If you don't have a 3D printer or are not going to build frames, you probably at least want some M3 standoffs, so the boards sit above the table with room below for the connectors.
 
 - [M3 standoffs from Amazon](https://www.amazon.com/gp/product/B0B3Y6WF2Y/)
+
+Likewise, you probably want knobs for the potentiometers, so if you don't have a 3D printer or are not going to print knobs, then you'll probably want to buy some.
+
+- [Potentiometer knobs from Amazon](https://www.amazon.com/gp/product/B099F4X4Q9/)
 
 If you are going to 3D print frames, then besides the filament, you'll need M3x6 screws to fasten the boards to the frames, and either glue or M2x4 flat head (countersink) screws to fasten the battery holders to the frame.
 
@@ -222,9 +226,11 @@ Finally, here's the one problem that I have actually encountered: an individual 
 
 If you don't have a 3D printer or are not planning to build frames, then you're done. The only additional things you might want to do is put knobs on the potentiometers and use some M3 standoffs so the boards stand above the table with room below for the connectors.
 
-# 5. (Optional) Build frames
+# 5. (Optional) Build frames and knobs
 
-The 3D print files, in 3mf format, are all in the [Frames](Frames) directory, and they're split between the actual frames - the orange parts in this photo - and the face plates - the blue parts. I made them separate objects, because i wanted to do them in different colors, and I don't have a multi-color 3D printer. 
+The 3D print files for the frames and knobs, in 3mf format, are all in the [Frames](Frames) directory.
+
+The frames are split between the actual frames - the orange parts in this photo - and the face plates - the blue parts. I made them separate objects, because i wanted to do them in different colors, and I don't have a multi-color 3D printer. 
 
 ![3D printed frames](assets/frames.jpg)
 
@@ -243,6 +249,7 @@ The file names should be pretty self-explanatory, but here's a list:
 - [adder_no_meter_frame.3mf](Frames/adder_no_meter_frame.3mf) - the frame for the Adder board with no meter (not shown)
 - [pots_face_plate_outie.3mf](Frames/pots_face_plate_outie.3mf) - the face plate for the potentiometers with the dial markings embossed outwards (blue part on the adder frame)
 - [pots_face_plate_innie.3mf](Frames/pots_face_plate_innie.3mf) - the face plate for the potentiometers with the dial markings debossed inwards (similar to the blue part on the adder frame)
+- [knob.3mf](Frames/knob.3mf) - a knob for the potentiometers
 
 All of these objects can be printed with PLA, no supports, and simple (default) settings.
 
@@ -297,6 +304,10 @@ If you use the embossed version, then during printing, you can do a color change
 Once everything is printed, use M3x6 round head screws to secure the board to the frame, and use the hardware supplied with your meter to secure the meter to the frame.
 
 ![Adder-board and meter frame with board and meter mounted](assets/adder_frame_mounting.jpg)
+
+## Knobs
+
+You'll need 17 of these, but you can print them all at once. Just replicate, arrange on the print bed, and go. And if you don't like the knobs that I designed, you'll find many more options online at [printables.com](https://www.printables.com/) or [makerworld.com](https://www.makerworld.com/). Just make sure they're sized to fit you potentiometers.
 
 ## Final assembly
 
