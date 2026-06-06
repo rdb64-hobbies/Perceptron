@@ -249,7 +249,8 @@ The file names should be pretty self-explanatory, but here's a list:
 - [adder_no_meter_frame.3mf](Frames/adder_no_meter_frame.3mf) - the frame for the Adder board with no meter (not shown)
 - [pots_face_plate_outie.3mf](Frames/pots_face_plate_outie.3mf) - the face plate for the potentiometers with the dial markings embossed outwards (blue part on the adder frame)
 - [pots_face_plate_innie.3mf](Frames/pots_face_plate_innie.3mf) - the face plate for the potentiometers with the dial markings debossed inwards (similar to the blue part on the adder frame)
-- [knob.3mf](Frames/knob.3mf) - a knob for the potentiometers
+- [knob_flat.3mf](Frames/knob_flat.3mf) - a knob for the potentiometers with flat, D-shaped shaft
+- [knob_knurled.3mf](Frames/knob_knurled.3mf) - a knob for the potentiometers with knurled shaft
 
 All of these objects can be printed with PLA, no supports, and simple (default) settings.
 
@@ -307,11 +308,11 @@ Once everything is printed, use M3x6 round head screws to secure the board to th
 
 ## Knobs
 
-You'll need 17 of these, but you can print them all at once. Just replicate, arrange on the print bed, and go.
+You'll need 17 of these, but you can print them all at once. Just replicate, arrange on the print bed, and go. Chose the right knobs to match your potentiometers' shaft type: flat (D-shaped) or knurled.
 
 ![17 potentiometer knobs 3D printed](assets/knobs_printed.jpg)
 
-And if you don't like the knobs that I designed, you'll find many more options online at [printables.com](https://www.printables.com/) or [makerworld.com](https://www.makerworld.com/). Just make sure they're sized to fit you potentiometers.
+And if you don't like the knobs that I designed, you'll find many more options online at [printables.com](https://www.printables.com/) or [makerworld.com](https://www.makerworld.com/). Just make sure they're sized to fit you potentiometers' shaft.
 
 ## Final assembly
 
