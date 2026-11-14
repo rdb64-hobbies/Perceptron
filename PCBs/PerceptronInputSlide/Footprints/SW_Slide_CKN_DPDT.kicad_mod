@@ -6,7 +6,7 @@
 	(descr "FS5700 series pushbutton footswitch, DPDT, https://www.e-switch.com/system/asset/product_line/data_sheet/226/FS5700.pdf")
 	(tags "switch DPDT footswitch")
 	(property "Reference" "REF**"
-		(at -7.5 0 90)
+		(at -7.8 0 90)
 		(layer "F.SilkS")
 		(uuid "0dd54888-ceb1-4189-9fda-99082be4ed8b")
 		(effects
@@ -186,12 +186,12 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -3.2 -2.5)
+		(at 3.2 -2.5)
 		(size 2.3 2.3)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "bf7a9ad5-7f44-4361-a98c-a852fa734677")
+		(uuid "70221083-44b7-41e7-aa8f-d18fd4fcef8a")
 	)
 	(pad "2" thru_hole circle
 		(at 0 -2.5)
@@ -202,20 +202,20 @@
 		(uuid "c9c0bf1c-2e61-45ff-98d8-caa77d882f16")
 	)
 	(pad "3" thru_hole circle
-		(at 3.2 -2.5)
+		(at -3.2 -2.5)
 		(size 2.3 2.3)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "70221083-44b7-41e7-aa8f-d18fd4fcef8a")
+		(uuid "bf7a9ad5-7f44-4361-a98c-a852fa734677")
 	)
 	(pad "4" thru_hole circle
-		(at -3.2 2.5)
+		(at 3.2 2.5)
 		(size 2.3 2.3)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "05ff8a20-9cb3-4eaa-914b-dbc4d0e07f8d")
+		(uuid "424d00c2-799c-4130-9846-76a410bf8033")
 	)
 	(pad "5" thru_hole circle
 		(at 0 2.5)
@@ -226,12 +226,12 @@
 		(uuid "203894ff-bc6a-43cc-9488-5146a304da48")
 	)
 	(pad "6" thru_hole circle
-		(at 3.2 2.5)
+		(at -3.2 2.5)
 		(size 2.3 2.3)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "424d00c2-799c-4130-9846-76a410bf8033")
+		(uuid "05ff8a20-9cb3-4eaa-914b-dbc4d0e07f8d")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_E-Switch_FS5700DP_DPDT.step"
